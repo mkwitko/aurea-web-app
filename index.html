@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08080e" />
+
+    <title>AUREA — AI Growth Operating System</title>
+    <meta
+      name="description"
+      content="AUREA turns one growth goal into researched strategy, measurable experiments and evidence of what worked — for companies with no growth department. Free to start, no credit card."
+    />
+    <link rel="icon" type="image/png" href="/logo.png" />
+
+    <!-- Social cards. og:url and an absolute og:image are the only values left to
+         fill in at deploy time, once the production domain exists. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AUREA" />
+    <meta property="og:title" content="AUREA — AI Growth Operating System" />
+    <meta
+      property="og:description"
+      content="One growth goal in. Strategy, experiments and evidence out. The growth operating system for companies with no growth department."
+    />
+    <meta property="og:image" content="/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AUREA — AI Growth Operating System" />
+    <meta
+      name="twitter:description"
+      content="One growth goal in. Strategy, experiments and evidence out. Free to start, no credit card."
+    />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Loaded without blocking first paint: the hero renders on the system font
+         stack rather than waiting on Google Fonts. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "AUREA",
+        "applicationCategory": "BusinessApplication",
+        "description": "AI growth operating system: it researches your market, proposes a strategy, designs measurable experiments and records what worked, then runs the next cycle smarter.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL",
+          "description": "Free start: 50 AI credits, one workspace, no credit card. Paid plans from R$ 297 per month."
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is this different from ChatGPT and a spreadsheet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT answers the question you type and forgets your business the moment you close the tab. AUREA keeps a persistent Growth Brain, decides what should be tested next, designs the experiment with a metric, records the outcome, and starts the next cycle from that result."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a growth team to use it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AUREA does the research, strategy and experiment design a growth team would do. You bring the business goal and the decision to run."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AUREA act on my behalf? Do I lose control?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AUREA proposes and you approve. Nothing is published, sent or spent outside AUREA without you. Every proposal is editable before it becomes an experiment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does it cost, and how do credits work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Starting is free: 50 credits, one workspace, no credit card. One credit is one small AI action — a research run costs 5, a strategy set 3, an experiment 2. Paid plans start at R$ 297 a month with a monthly credit allowance."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

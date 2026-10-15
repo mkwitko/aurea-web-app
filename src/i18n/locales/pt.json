@@ -1,0 +1,2228 @@
+{
+  "enums": {
+    "fundingStage": {
+      "bootstrapped": "Bootstrapped",
+      "preSeed": "Pre-seed",
+      "seed": "Seed",
+      "seriesA": "Série A",
+      "seriesB": "Série B",
+      "seriesCPlus": "Série C+",
+      "public": "Capital aberto"
+    },
+    "pricingModel": {
+      "free": "Grátis",
+      "freemium": "Freemium",
+      "subscription": "Assinatura",
+      "oneTime": "Pagamento único",
+      "usageBased": "Por uso",
+      "custom": "Personalizado"
+    },
+    "productStatus": {
+      "active": "Ativo",
+      "beta": "Beta",
+      "planned": "Planejado",
+      "sunset": "Descontinuado"
+    },
+    "marketShare": {
+      "dominant": "Dominante",
+      "major": "Grande",
+      "emerging": "Emergente",
+      "niche": "Nicho"
+    },
+    "marketPosition": {
+      "leader": "Líder",
+      "challenger": "Desafiante",
+      "follower": "Seguidor",
+      "niche": "Nicho"
+    },
+    "maturity": {
+      "emerging": "Emergente",
+      "growth": "Crescimento",
+      "mature": "Maduro",
+      "declining": "Em declínio"
+    },
+    "urgency": {
+      "low": "Baixa",
+      "medium": "Média",
+      "high": "Alta",
+      "critical": "Crítica"
+    },
+    "projectType": {
+      "product": "Produto",
+      "marketing": "Marketing",
+      "sales": "Vendas",
+      "operations": "Operações",
+      "technical": "Técnico",
+      "other": "Outro"
+    },
+    "projectStatus": {
+      "planned": "Planejado",
+      "inProgress": "Em andamento",
+      "completed": "Concluído",
+      "onHold": "Pausado"
+    },
+    "objectiveStatus": {
+      "notStarted": "Não iniciado",
+      "inProgress": "Em andamento",
+      "achieved": "Atingido",
+      "missed": "Não atingido"
+    },
+    "campaignStatus": {
+      "planned": "Planejada",
+      "running": "Em veiculação",
+      "finished": "Encerrada",
+      "paused": "Pausada"
+    },
+    "plan": {
+      "STARTER": "Starter",
+      "GROWTH": "Growth",
+      "SCALE": "Scale"
+    },
+    "pack": {
+      "SMALL": "Pequeno",
+      "MEDIUM": "Médio",
+      "LARGE": "Grande"
+    },
+    "confidence": {
+      "LOW": "Baixa",
+      "MEDIUM": "Média",
+      "HIGH": "Alta",
+      "VERIFIED": "Verificada"
+    },
+    "priority": {
+      "LOW": "Baixa",
+      "MEDIUM": "Média",
+      "HIGH": "Alta",
+      "CRITICAL": "Crítica"
+    }
+  },
+  "nav": {
+    "skip": "Ir para o conteúdo",
+    "how": "Como funciona",
+    "loop": "O ciclo",
+    "pricing": "Preços",
+    "faq": "Dúvidas",
+    "signin": "Entrar",
+    "start": "Começar grátis"
+  },
+  "hero": {
+    "badge": "Sistema de crescimento com IA",
+    "titleMain": "Você diz a meta.",
+    "titleAccent": "A AUREA descobre o caminho e prova o que funciona.",
+    "subtitle": "É como ter um time de crescimento dentro da empresa: a AUREA estuda seu mercado, escolhe o que fazer primeiro, monta o teste e acompanha os números. Você aprova; ela organiza o resto.",
+    "start": "Criar minha conta grátis",
+    "how": "Ver como funciona",
+    "assurances": [
+      "Sem cartão de crédito",
+      "Já vem com 50 créditos de IA",
+      "Primeira pesquisa na primeira sessão"
+    ],
+    "ringTitle": "O ciclo da AUREA",
+    "ringNote": "não para",
+    "repeat": "e melhora a cada volta"
+  },
+  "loopSteps": {
+    "goal": "Meta",
+    "research": "Pesquisa",
+    "strategy": "Plano",
+    "experiment": "Teste",
+    "execute": "Execução",
+    "measure": "Medição",
+    "learn": "Aprendizado"
+  },
+  "proof": {
+    "eyebrow": "Onde a AUREA está hoje",
+    "items": [
+      {
+        "title": "Acesso antecipado, já aberto",
+        "body": "Você cria a conta e roda o primeiro ciclo hoje. Não é lista de espera."
+      },
+      {
+        "title": "Configuração junto com o fundador",
+        "body": "Os 100 primeiros times montam tudo numa call com quem criou a AUREA."
+      },
+      {
+        "title": "Seus dados são seus",
+        "body": "Nada do que você escreve aqui é usado para treinar IA de terceiros."
+      },
+      {
+        "title": "Tudo fica registrado",
+        "body": "Cada meta, teste e resultado fica salvo, e você pode revisar quando quiser."
+      }
+    ]
+  },
+  "problem": {
+    "eyebrow": "O problema de verdade",
+    "title": "Suas ferramentas mostram o que já aconteceu. Nenhuma diz o que fazer amanhã.",
+    "body": "Você tem Analytics, anúncios, CRM e ChatGPT. Todos fazem tarefas. Nenhum responde a pergunta da segunda-feira: <em>o que a gente faz agora, e como vamos saber se funcionou?</em>",
+    "symptoms": [
+      "O marketing anda por impulso: uma semana anúncio, na outra um post",
+      "Você copia o que viu dar certo em outra empresa e torce para servir na sua",
+      "Passa mais tempo mexendo em ferramenta do que vendendo",
+      "No fim do mês, ninguém sabe dizer o que trouxe cliente"
+    ],
+    "stakes": "Empresa raramente para de crescer por falta de ferramenta. Para porque ninguém testou <strong>a coisa certa</strong> — nem anotou o que aprendeu."
+  },
+  "what": {
+    "eyebrow": "O que a AUREA faz",
+    "title": "Ela decide o que fazer. Suas ferramentas continuam executando.",
+    "lead": "Crescer não é uma lista de tarefas. É um ciclo: decidir, testar, medir, aprender e decidir de novo. A AUREA guarda tudo que sabe do seu negócio, escolhe o próximo teste, monta o plano e depois lê o resultado para escolher melhor na vez seguinte.",
+    "pillars": [
+      {
+        "title": "Ela lembra do seu negócio",
+        "body": "Seu produto, seus clientes, seu mercado e tudo que você já tentou ficam guardados em um só lugar.",
+        "result": "Você não explica sua empresa de novo a cada conversa."
+      },
+      {
+        "title": "Cada ideia vira um teste com meta",
+        "body": "Toda sugestão chega pronta: o que fazer, onde fazer, em quanto tempo e qual número precisa subir.",
+        "result": "Você sempre sabe o que está testando e quando pode dizer que deu certo."
+      },
+      {
+        "title": "Erro também vira conhecimento",
+        "body": "Deu certo ou não deu, o resultado é registrado e entra na decisão seguinte.",
+        "result": "Do décimo teste em diante, as sugestões são feitas sob medida para a sua empresa."
+      }
+    ]
+  },
+  "preview": {
+    "eyebrow": "Como você vê na tela",
+    "title": "Uma meta no topo. Embaixo, o teste que vai movê-la.",
+    "caption": "Exemplo de tela: uma meta de negócio virando um teste com número para acompanhar.",
+    "chips": [
+      "Clientes",
+      "Mercado",
+      "Metas"
+    ],
+    "goalLabel": "Meta atual",
+    "goalValue": "Aumentar em 20% quem testa e se torna cliente",
+    "hypothesisLabel": "O que vamos testar",
+    "hypothesisValue": "Ligar para quem se cadastrou nas primeiras 24 horas deve aumentar em 15% a virada de teste para cliente.",
+    "metricLabel": "Como vamos medir",
+    "metricValue": "Quantos testes viraram cliente, semana a semana. Meta: +20%.",
+    "panelTitle": "Meu negócio"
+  },
+  "loop": {
+    "eyebrow": "O ciclo",
+    "title": "Sete passos. E ele não para.",
+    "lead": "Você monta uma vez e passa a ter um processo em vez de uma lista de tarefas. Cada volta do ciclo deixa a próxima decisão melhor.",
+    "items": [
+      {
+        "n": "01",
+        "title": "Meta",
+        "body": "Você diz o que quer: mais clientes, mais faturamento, gastar menos para vender. Em português, do jeito que você fala."
+      },
+      {
+        "n": "02",
+        "title": "Pesquisa",
+        "body": "A AUREA estuda seu mercado, seus concorrentes e seu público — e mostra de onde tirou cada informação."
+      },
+      {
+        "n": "03",
+        "title": "Plano",
+        "body": "Ela devolve dois ou três caminhos possíveis, com prós, contras e quanto trabalho dá cada um. Você escolhe."
+      },
+      {
+        "n": "04",
+        "title": "Teste",
+        "body": "O caminho escolhido vira um teste pronto: o que fazer, onde, por quanto tempo e qual número precisa mudar."
+      },
+      {
+        "n": "05",
+        "title": "Execução",
+        "body": "Seu time (ou suas ferramentas) põe em prática. As datas de início e fim ficam registradas no teste, junto com o número a acompanhar."
+      },
+      {
+        "n": "06",
+        "title": "Medição",
+        "body": "No fim, o número é comparado com a meta combinada no começo. Sem maquiar resultado."
+      },
+      {
+        "n": "07",
+        "title": "Aprendizado",
+        "body": "O resultado fica guardado. O ciclo seguinte já começa sabendo o que funcionou e o que não."
+      }
+    ]
+  },
+  "agents": {
+    "eyebrow": "Quem faz o trabalho",
+    "title": "Quatro especialistas de IA, cada um com uma função.",
+    "body": "Não são quatro chats separados. Eles compartilham tudo o que a AUREA sabe do seu negócio e passam trabalho um para o outro, como um time faria.",
+    "items": [
+      {
+        "title": "O pesquisador",
+        "body": "Estuda mercado, concorrentes e público. Traz oportunidades com a fonte de cada informação."
+      },
+      {
+        "title": "O estrategista",
+        "body": "Transforma a pesquisa em caminhos possíveis e diz o esforço e o risco de cada um."
+      },
+      {
+        "title": "O planejador de testes",
+        "body": "Monta o teste: o que fazer, onde, por quanto tempo e qual número acompanhar."
+      },
+      {
+        "title": "O analista",
+        "body": "Lê o resultado sem enfeitar e guarda o aprendizado para a próxima decisão."
+      }
+    ]
+  },
+  "contrast": {
+    "eyebrow": "Por que não é só ChatGPT",
+    "title": "O ChatGPT responde. A AUREA decide, testa e mede.",
+    "body": "Uma IA de chat responde a pergunta que você lembrou de fazer. Um painel de métricas mostra o que já passou. A AUREA guarda a sua meta, escolhe o próximo teste e fecha a conta no fim: funcionou ou não funcionou.",
+    "layerTitle": "AUREA — quem decide",
+    "layerBody": "Entende o negócio → escolhe o caminho → monta o teste → acompanha → aprende",
+    "stackLabel": "Suas ferramentas de hoje",
+    "stackItems": [
+      "Analytics",
+      "Anúncios",
+      "CRM",
+      "E-mail",
+      "Conteúdo",
+      "IA de chat"
+    ],
+    "stackNote": "A AUREA não substitui nenhuma delas. Ela diz o que cada uma deveria estar fazendo nesta semana.",
+    "othersLabel": "Ferramentas soltas",
+    "comparison": {
+      "others": [
+        "Analytics mostra o que já aconteceu",
+        "IA de chat responde o que você perguntou",
+        "CRM guarda contatos e vendas",
+        "Plataforma de anúncio melhora só o que roda dentro dela"
+      ],
+      "aurea": [
+        "Escolhe o que testar olhando o seu negócio",
+        "Monta o teste com número e prazo",
+        "Diz se o número mexeu ou não",
+        "Usa esse resultado na decisão seguinte"
+      ]
+    },
+    "tags": [
+      "Começa pela sua meta",
+      "Pesquisa com fonte",
+      "Testes de verdade",
+      "Aprende com você"
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Para quem é",
+    "title": "Para quem precisa crescer com método, não de mais um programa.",
+    "items": [
+      {
+        "title": "Fundador que faz tudo",
+        "body": "Você é o time de marketing. A AUREA faz a pesquisa e o plano; você aprova e executa."
+      },
+      {
+        "title": "Time pequeno com meta grande",
+        "body": "Duas ou três pessoas para todos os canais. A AUREA diz onde vale gastar a próxima semana."
+      },
+      {
+        "title": "Quem cansou de achismo",
+        "body": "Você tem visitas e vendas, mas ninguém sabe o que trouxe. A AUREA transforma esforço em resposta."
+      }
+    ],
+    "notForTitle": "Provavelmente não é para você se",
+    "notFor": [
+      "Você quer alguém escrevendo post e legenda — isso é ferramenta de conteúdo",
+      "Você quer mais um painel com os números que já tem",
+      "Você quer entregar o crescimento para uma agência cuidar"
+    ]
+  },
+  "start": {
+    "eyebrow": "Como começar",
+    "title": "Do cadastro à primeira pesquisa na mesma sessão.",
+    "steps": [
+      {
+        "n": "1",
+        "title": "Crie sua conta",
+        "body": "Nome, e-mail e empresa. Sem cartão e sem conversa com vendedor."
+      },
+      {
+        "n": "2",
+        "title": "Conte do seu negócio uma vez",
+        "body": "Ou cole o endereço do seu site: a AUREA escreve um rascunho e você corrige o que estiver errado."
+      },
+      {
+        "n": "3",
+        "title": "Escolha uma meta",
+        "body": "A pesquisa começa na hora e os primeiros caminhos aparecem na mesma sessão."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Comece de graça. Pague quando estiver usando de verdade.",
+    "lead": "Cada tarefa de IA consome créditos, então você vê onde gastou. Uma pesquisa de mercado custa 5 créditos, um conjunto de caminhos 3, um teste 2. Sua conta já começa com 50 — dá para rodar os primeiros ciclos sem pagar nada.",
+    "freeName": "Grátis para começar",
+    "freePrice": "R$ 0",
+    "freeNote": "50 créditos · 1 empresa · sem cartão",
+    "freeCta": "Começar grátis",
+    "perMonth": "/mês",
+    "creditsUnit": "créditos por mês",
+    "workspacesUnit": "empresa ou marca",
+    "workspacesUnitPlural": "empresas ou marcas",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "R$ 297",
+        "credits": "200",
+        "workspaces": "1",
+        "note": "Uma empresa, uma meta por vez."
+      },
+      {
+        "name": "Growth",
+        "price": "R$ 997",
+        "credits": "1.000",
+        "workspaces": "3",
+        "note": "Várias metas e marcas ao mesmo tempo."
+      },
+      {
+        "name": "Scale",
+        "price": "R$ 2.497",
+        "credits": "4.000",
+        "workspaces": "10",
+        "note": "Agências e empresas com vários produtos."
+      }
+    ],
+    "popular": "Mais escolhido",
+    "cta": "Começar grátis (troca de plano depois)",
+    "footnote": "Preços em reais, cobrança mensal, cancela quando quiser dentro da própria conta. Se um mês pesar mais que o normal, dá para comprar créditos extras."
+  },
+  "ctaMid": {
+    "title": "Veja o que a AUREA sugeriria para a sua empresa.",
+    "subtitle": "Crie a conta, escolha uma meta e receba a pesquisa e os primeiros caminhos na mesma sessão.",
+    "button": "Criar minha conta grátis",
+    "assurance": "Sem cartão · 50 créditos inclusos"
+  },
+  "faq": {
+    "eyebrow": "Dúvidas",
+    "title": "O que todo mundo pergunta antes de criar a conta.",
+    "items": [
+      {
+        "q": "Isso é diferente de usar o ChatGPT?",
+        "a": "É. O ChatGPT responde o que você pergunta e esquece a sua empresa quando você fecha a aba. A AUREA guarda o que sabe do seu negócio, escolhe sozinha o próximo teste, monta o plano com número para acompanhar, registra o resultado e usa isso na decisão seguinte. Um escreve texto. A outra conduz o processo."
+      },
+      {
+        "q": "Preciso entender de marketing para usar?",
+        "a": "Não. Você fala em termos de negócio: quero mais clientes, quero gastar menos para vender. A AUREA traduz isso em pesquisa, plano e teste, e explica cada palavra difícil dentro do próprio produto."
+      },
+      {
+        "q": "A AUREA faz coisa no meu nome?",
+        "a": "Não. Ela sugere e você aprova. Nada é publicado, enviado ou gasto fora da AUREA sem você clicar. Toda sugestão pode ser editada antes de virar teste."
+      },
+      {
+        "q": "Que resultado eu posso esperar?",
+        "a": "A AUREA está em acesso antecipado, então ainda não temos média de clientes para mostrar — e não vamos inventar número. O que a primeira sessão entrega é concreto: pesquisa do seu mercado com as fontes, dois ou três caminhos possíveis, um teste com meta e prazo, e o registro honesto do resultado quando ele sair."
+      },
+      {
+        "q": "Funciona com as ferramentas que eu já uso?",
+        "a": "Sim. Seu Analytics, seu CRM e suas plataformas de anúncio continuam onde estão, e é você quem executa neles — a AUREA é quem decide o que fazer com eles. Conexões automáticas estão no roteiro, ainda não estão prontas, e nada quebra se você trocar de ferramenta."
+      },
+      {
+        "q": "Quanto custa, e o que é crédito?",
+        "a": "Começar é grátis: 50 créditos, uma empresa, sem cartão. Crédito é uma tarefa de IA — uma pesquisa de mercado custa 5, um conjunto de caminhos 3, um teste 2. Os planos começam em R$ 297 por mês, com créditos que renovam todo mês."
+      },
+      {
+        "q": "E se tiver pouca informação pública sobre o meu mercado?",
+        "a": "A AUREA mostra o que encontrou com a fonte e avisa o que não achou. Você vê o buraco em vez de receber um palpite com cara de certeza, e pode completar com o que já sabe do seu setor."
+      },
+      {
+        "q": "Meus dados estão seguros?",
+        "a": "Sim. O que você escreve fica só na sua conta, guardado de forma criptografada, e nunca é usado para treinar IA de terceiros."
+      }
+    ]
+  },
+  "trust": {
+    "eyebrow": "Quem está por trás",
+    "title": "Feito por um fundador que se cansou de adivinhar.",
+    "body": "Eu ficava pulando entre Analytics, ChatGPT, planilha e conselho de internet para decidir o que fazer na semana — e nunca sabia dizer se tinha funcionado. A AUREA é o sistema que eu queria ter: decide, testa, mede e lembra. Crescer devia ser um processo confiável, não uma aposta repetida.",
+    "label": "— Mauricio Oliveira, fundador da AUREA",
+    "status": "Acesso antecipado. Os 100 primeiros times fazem a configuração junto com o fundador."
+  },
+  "ctaBand": {
+    "title": "Sua próxima decisão de crescimento está a uma meta de distância.",
+    "subtitle": "Crie a conta, escolha uma meta e veja a pesquisa e os primeiros caminhos aparecerem na mesma sessão.",
+    "urgency": "Grátis para começar · Sem cartão · 50 créditos inclusos",
+    "button": "Criar minha conta grátis",
+    "secondary": "Rever o ciclo"
+  },
+  "footer": {
+    "tagline": "Seu sistema de crescimento com IA",
+    "how": "Como funciona",
+    "loop": "O ciclo",
+    "pricing": "Preços",
+    "faq": "Dúvidas",
+    "signin": "Entrar"
+  },
+  "auth": {
+    "panelBadge": "Sistema Operacional de Crescimento com IA",
+    "panelTitle": "Um objetivo entra. Estratégia, experimentos e aprendizado acumulado saem.",
+    "panelSub": "Pesquisa, estratégia e experimentos — sem precisar de time de growth.",
+    "error": "Algo deu errado",
+    "login": {
+      "eyebrow": "Bem-vindo de volta",
+      "title": "Entrar na AUREA",
+      "subtitle": "Continue de onde seu crescimento parou.",
+      "email": "E-mail",
+      "password": "Senha",
+      "submit": "Entrar",
+      "submitting": "Entrando…",
+      "newHere": "Novo na AUREA?",
+      "create": "Criar uma conta"
+    },
+    "register": {
+      "eyebrow": "Começar grátis",
+      "title": "Crie sua conta",
+      "subtitle": "Sem cartão e sem conversa com vendedor. Você já começa com 50 créditos de IA.",
+      "name": "Seu nome",
+      "company": "Nome da empresa",
+      "companyHelpTitle": "Empresa / Organização",
+      "companyHelp": "O negócio que a AUREA vai ajudar a crescer. Você pode renomear depois.",
+      "email": "E-mail",
+      "password": "Senha",
+      "confirmPassword": "Confirmar senha",
+      "passwordMismatch": "As senhas não coincidem",
+      "submit": "Criar conta",
+      "submitting": "Criando…",
+      "have": "Já tem uma conta?",
+      "signin": "Entrar"
+    }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Início",
+      "business": "Negócio",
+      "icps": "Clientes ideais",
+      "goals": "Metas",
+      "research": "Pesquisa",
+      "strategies": "Planos",
+      "experiments": "Testes",
+      "actions": "Ações",
+      "billing": "Cobrança",
+      "learnings": "Aprendizados",
+      "growth": "Crescimento",
+      "integrations": "Integrações",
+      "groups": {
+        "business": "Negócio",
+        "growth": "Crescimento",
+        "publish": "Publicações",
+        "settings": "Configurações"
+      }
+    },
+    "growth": {
+      "title": "Crescimento",
+      "subtitle": "Meta, pesquisa, planos, testes e aprendizados — um só loop, uma só tela.",
+      "stepperLabel": "Estágios do loop de crescimento"
+    },
+    "uiMode": {
+      "label": "Modo",
+      "simple": "Simples",
+      "advanced": "Avançado"
+    },
+    "signout": "Sair",
+    "workspace": {
+      "switch": "Trocar workspace",
+      "create": "Criar empresa ou marca",
+      "createTitle": "Nova empresa ou marca",
+      "nameLabel": "Nome",
+      "createBtn": "Criar",
+      "createFailed": "Não foi possível criar. Tente de novo em instantes.",
+      "capCta": "Ver planos",
+      "firstTitle": "Dê um nome à sua primeira empresa ou marca",
+      "firstEyebrow": "Falta um passo",
+      "firstSubtitle": "Um workspace guarda uma empresa ou marca: o contexto do negócio, as metas, os experimentos e os créditos dela. Tudo o que a AUREA aprende, aprende dentro de um.",
+      "firstHint": "Você pode criar outros depois, até o limite do seu plano.",
+      "firstSubmit": "Criar e continuar",
+      "firstCreated": "Workspace criado. Finalizando…",
+      "firstRetry": "Continuar",
+      "firstStalled": "Seu workspace foi criado, mas não conseguimos carregar sua sessão. Nada foi perdido — tente de novo."
+    },
+    "creditsChip": "{{count}} créditos",
+    "creditsChipLabel": "Créditos disponíveis — abrir cobrança",
+    "dashboard": {
+      "welcome": "Bem-vindo, {{name}} 👋",
+      "subtitle": "Conte à AUREA sobre seu negócio. Complete estes passos para rodar seu primeiro teste.",
+      "subtitleLoop": "Como está seu ciclo de crescimento, e o que fazer em seguida.",
+      "loading": "Carregando…",
+      "error": "Não foi possível carregar seu painel. Tente novamente.",
+      "hint": "Não sabe o que um termo significa? Clique no ? ao lado — a AUREA explica tudo dentro do app.",
+      "continue": "Continuar configuração",
+      "setupDone": "Configuração concluída · {{completed}} / {{total}}",
+      "startGuide": "Fazer o onboarding guiado",
+      "steps": {
+        "business": {
+          "title": "Negócio",
+          "help": "Contexto do Negócio",
+          "helpText": "O que você vende, quem você atende e o que te diferencia. A AUREA usa isso para raciocinar sobre seu crescimento."
+        },
+        "context": {
+          "title": "Contexto",
+          "help": "Contexto do Negócio",
+          "helpText": "Os detalhes mais profundos sobre sua empresa — equipe, mercado, concorrentes — além do básico. A AUREA usa tudo isso, não só o essencial, para raciocinar sobre seu crescimento."
+        },
+        "icp": {
+          "title": "Cliente ideal",
+          "help": "ICP",
+          "helpText": "Seu Perfil de Cliente Ideal — o tipo de cliente que vale a pena adquirir."
+        },
+        "goal": {
+          "title": "Objetivo",
+          "help": "Objetivo",
+          "helpText": "Um resultado mensurável, ex.: \"1.000 leads qualificados/mês\". Ele guia tudo que a AUREA recomenda."
+        },
+        "research": {
+          "title": "Pesquisa",
+          "help": "Pesquisa",
+          "helpText": "Deixe a AUREA buscar na web evidências sobre seu mercado, seus concorrentes e seus clientes, e decida o que passa a fazer parte do contexto do seu negócio."
+        },
+        "strategy": {
+          "title": "Estratégia",
+          "help": "Estratégia",
+          "helpText": "Como você pretende alcançar o objetivo — o mecanismo de crescimento e os canais. Em breve a AUREA propõe isso."
+        },
+        "hypothesis": {
+          "title": "Hipótese",
+          "help": "Hipótese",
+          "helpText": "A crença específica que seu próximo experimento vai testar, ex.: \"Fundadores que veem uma demonstração convertem duas vezes mais\". Ela vem da estratégia que você escolheu."
+        },
+        "experiment": {
+          "title": "Experimento",
+          "help": "Experimento",
+          "helpText": "Um teste delimitado e mensurável dessa hipótese, com métrica, alvo e critério de sucesso. A AUREA propõe; você aprova antes de rodar."
+        }
+      },
+      "loopTitle": "Ciclo {{number}}",
+      "noGoal": "Nenhuma meta definida ainda",
+      "loopHelp": "Ciclo",
+      "loopHelpText": "Uma passagem pelo ciclo de crescimento: a estratégia se torna um experimento, o experimento produz um resultado, e o resultado se torna um aprendizado que melhora a próxima passagem.",
+      "rail": {
+        "STRATEGY": "Estratégia",
+        "EXPERIMENT": "Experimento",
+        "OUTCOME": "Resultado",
+        "LEARNING": "Aprendizado"
+      },
+      "railHelp": {
+        "STRATEGY": "Como você pretende alcançar a meta — o mecanismo de crescimento e os canais.",
+        "EXPERIMENT": "Um teste delimitado e mensurável de uma crença, com métrica, alvo e critérios de sucesso. Concluí-lo não é o mesmo que ele ter funcionado.",
+        "OUTCOME": "O que de fato aconteceu: o valor medido da métrica do experimento.",
+        "LEARNING": "O que o resultado significa, dito de forma que melhore a próxima decisão. Você o valida antes de a AUREA confiar nele."
+      },
+      "nextLabel": "Próximo",
+      "go": "Ir",
+      "waitNoDate": "\"{{subject}}\" está rodando",
+      "next": {
+        "SET_UP_BUSINESS": "Conte à AUREA sobre seu negócio",
+        "FILL_CONTEXT": "Preencha o contexto do seu negócio",
+        "DEFINE_ICP": "Defina quem é seu cliente ideal",
+        "SET_GOAL": "Defina uma meta de crescimento mensurável",
+        "ACTIVATE_GOAL": "Ative seu objetivo — a AUREA trabalha em cima de um ativo",
+        "RUN_RESEARCH": "Deixe a AUREA pesquisar seu mercado",
+        "CHOOSE_STRATEGY": "Escolha uma estratégia para seguir",
+        "CREATE_HYPOTHESIS": "Escreva uma hipótese para essa estratégia",
+        "DESIGN_EXPERIMENT": "Desenhe um experimento para testá-la",
+        "PLAN_EXPERIMENT": "Termine de planejar \"{{subject}}\"",
+        "APPROVE_EXPERIMENT": "Aprove \"{{subject}}\" para que possa começar",
+        "START_EXPERIMENT": "Inicie \"{{subject}}\"",
+        "WAIT_FOR_EXPERIMENT": "\"{{subject}}\" está rodando até {{date}}",
+        "COMPLETE_EXPERIMENT": "\"{{subject}}\" chegou à data final — encerre",
+        "RESUME_EXPERIMENT": "Retome \"{{subject}}\"",
+        "RECORD_OUTCOME": "Registre o que \"{{subject}}\" produziu",
+        "INTERPRET_OUTCOME": "Deixe a AUREA ler o resultado de \"{{subject}}\"",
+        "VALIDATE_LEARNING": "Valide o aprendizado de \"{{subject}}\"",
+        "START_NEXT_LOOP": "Comece seu próximo experimento"
+      },
+      "recentTitle": "Recente",
+      "recentEmpty": "Nada ainda. Seus primeiros passos vão aparecer aqui.",
+      "recent": {
+        "GOAL_SET": "Meta definida: {{label}}",
+        "RESEARCH_COMPLETED_one": "A pesquisa encontrou {{count}} achado",
+        "RESEARCH_COMPLETED_other": "A pesquisa encontrou {{count}} achados",
+        "RESEARCH_COMPLETED_unknown": "Pesquisa concluída",
+        "STRATEGY_ACCEPTED": "Estratégia aceita: {{label}}",
+        "STRATEGY_CREATED": "Estratégia criada: {{label}}",
+        "EXPERIMENT_CREATED": "Experimento desenhado: {{label}}",
+        "EXPERIMENT_COMPLETED": "Experimento concluído: {{label}}",
+        "OUTCOME_RECORDED": "Resultado registrado: {{label}} — {{value}} {{unit}}",
+        "LEARNING_CREATED": "Aprendizado escrito: {{label}}",
+        "LEARNING_VALIDATED": "Aprendizado validado: {{label}}"
+      },
+      "pendingMeasurement": {
+        "title": "{{count}} teste esperando o número",
+        "title_other": "{{count}} testes esperando o número",
+        "helpTitle": "Por que isto aparece",
+        "help": "O teste chegou ao fim da duração que você definiu. AUREA não inventa o resultado: o número vem de você, e é ele que permite comparar com o ponto de partida e a meta.",
+        "ended": "terminou em {{date}}",
+        "more": "+{{count}} além destes",
+        "badge": "{{count}} esperando o número"
+      }
+    }
+  },
+  "onboarding": {
+    "stage": {
+      "1": "Conte quem você é",
+      "2": "AUREA monta seu Growth Brain",
+      "3": "Revise e aprove"
+    },
+    "url": {
+      "eyebrow": "Vamos começar",
+      "title": "Conte para a AUREA quem você é",
+      "subtitle": "Um nome e um site são tudo que a AUREA precisa para começar a montar seu Growth Brain — perfil, contexto de mercado, cliente ideal e primeira meta de crescimento, propostos para você revisar.",
+      "helpTitle": "Por que só isso?",
+      "help": "A AUREA lê seu site para rascunhar o resto. Você revisa e edita cada proposta antes de qualquer coisa ser criada.",
+      "name": "Nome do negócio",
+      "namePh": "ex.: Acme Ltda.",
+      "website": "Site",
+      "websitePh": "https://",
+      "submit": "Começar",
+      "submitting": "Começando…",
+      "failed": "Não foi possível começar. Tente de novo.",
+      "cost": "Essa cadeia custa cerca de {{credits}} créditos no total."
+    },
+    "chain": {
+      "eyebrow": "Montando",
+      "title": "A AUREA está montando seu Growth Brain",
+      "subtitle": "Cada etapa roda sozinha — nenhum clique necessário. Isso leva alguns minutos.",
+      "profile": "Lendo seu site e rascunhando o perfil do negócio",
+      "context": "Pesquisando seu mercado, produto e desempenho atual",
+      "icp": "Propondo seu perfil de cliente ideal",
+      "goal": "Propondo sua primeira meta de crescimento",
+      "failedTitle": "Esta etapa não terminou"
+    },
+    "questions": {
+      "eyebrow": "Só mais algumas perguntas",
+      "title": "Algumas coisas que só você sabe",
+      "subtitle": "A AUREA não encontrou isso em nenhum lugar público. Responda o que puder — o resto pode ficar para depois.",
+      "skip": "Pular estas perguntas"
+    },
+    "review": {
+      "eyebrow": "Quase lá",
+      "title": "Revise e aprove",
+      "subtitle": "Tudo abaixo é uma proposta. Edite o que precisar e aprove tudo de uma vez — sua primeira pesquisa começa logo em seguida.",
+      "profileTitle": "Perfil do negócio",
+      "contextTitle": "Contexto do negócio",
+      "contextSummary": "{{filled}} de {{total}} seções preenchidas",
+      "icpTitle": "Perfil de cliente ideal",
+      "icpName": "Nome",
+      "icpDescription": "Descrição",
+      "icpFallbackName": "Cliente ideal",
+      "goalTitle": "Primeira meta de crescimento",
+      "goalName": "Nome",
+      "goalMetric": "Métrica",
+      "goalTarget": "Meta",
+      "goalDeadline": "Prazo",
+      "goalPriority": "Prioridade",
+      "approve": "Aprovar tudo",
+      "approving": "Aprovando…",
+      "approveFailed": "Não foi possível concluir a aprovação. Tente de novo."
+    }
+  },
+  "ai": {
+    "fill": {
+      "failed": "A AUREA não conseguiu terminar. Tente de novo.",
+      "panelTitle": "AUREA precisa saber",
+      "answer": "Responder",
+      "dontKnow": "não sei",
+      "skip": "pular",
+      "progress": "{{current}} de {{total}} respondidas",
+      "answerPlaceholder": "sua resposta",
+      "cost": "custa {{credits}} crédito(s)",
+      "short": "Você não tem créditos suficientes.",
+      "topUp": "comprar créditos",
+      "thinking": "A AUREA está lendo…",
+      "retry": "Tentar de novo",
+      "again": "Gerar de novo",
+      "unreadable": "A AUREA respondeu num formato que esta tela não entende.",
+      "startFailed": "Não foi possível começar.",
+      "goThere": "ir para lá",
+      "business": {
+        "label": "Ler meu site com IA",
+        "needsWebsite": "Informe o site para a AUREA poder ler."
+      },
+      "context": {
+        "label": "Preencher {{count}} seções com IA",
+        "scope": "Projetos e campanhas são registro interno — só você preenche. Seção a seção custa 1 crédito cada."
+      },
+      "section": {
+        "label": "Preencher esta seção com IA"
+      },
+      "icp": {
+        "label": "Rascunhar este ICP com IA",
+        "needsContext": "A AUREA precisa de um pouco mais de contexto registrado primeiro — pelo menos três seções do contexto do seu negócio.",
+        "goToContext": "Ir preencher o contexto do negócio"
+      },
+      "goal": {
+        "label": "Rascunhar este objetivo com IA",
+        "needsIcp": "A AUREA precisa de um ICP ativo para rascunhar um objetivo.",
+        "goToIcps": "Ir criar um ICP"
+      },
+      "hypothesis": {
+        "label": "Rascunhar esta hipótese com IA",
+        "needsApproval": "Esta estratégia precisa estar aprovada ou ativa antes que a AUREA possa rascunhar uma hipótese para ela."
+      },
+      "experiment": {
+        "label": "Desenhar este experimento com IA",
+        "needsHypothesis": "Escolha primeiro a hipótese que este experimento testa."
+      },
+      "cancel": "Cancelar",
+      "otherRunning": "A AUREA está trabalhando em outra parte deste contexto —",
+      "error": {
+        "details": "detalhes técnicos",
+        "refunded": "O crédito deste run já voltou para a sua conta.",
+        "charged": "Este run foi cobrado. A nova tentativa custa outro crédito.",
+        "tooLong": {
+          "title": "A resposta ficou grande demais e a AUREA parou no meio",
+          "body": "A proposta passou do limite de tamanho deste run. Tentar de novo já começa com mais espaço e costuma resolver."
+        },
+        "timeout": {
+          "title": "A AUREA demorou demais e foi interrompida",
+          "body": "A pesquisa passou do tempo limite. Tente de novo; se repetir, preencha seção por seção em vez do contexto inteiro."
+        },
+        "credits": {
+          "title": "Faltou crédito para este trabalho",
+          "body": "Compre créditos e tente de novo."
+        },
+        "refused": {
+          "title": "O modelo recusou este pedido",
+          "body": "Pode ser instabilidade momentânea. Tente de novo em alguns instantes."
+        },
+        "generic": {
+          "title": "A AUREA não conseguiu terminar",
+          "body": "Não foi culpa sua. Tente de novo — se acontecer duas vezes seguidas, os detalhes técnicos abaixo dizem o motivo."
+        },
+        "unreadable": {
+          "title": "A resposta veio num formato que esta tela não entende",
+          "body": "Isso é um defeito nosso, não seu. Tentar de novo costuma resolver."
+        }
+      }
+    },
+    "specialists": {
+      "researcher": {
+        "name": "O pesquisador",
+        "role": "Estuda mercado, concorrentes e público, e traz a fonte de cada informação."
+      },
+      "strategist": {
+        "name": "O estrategista",
+        "role": "Transforma a pesquisa em caminhos possíveis, com o esforço e o risco de cada um."
+      },
+      "planner": {
+        "name": "O planejador de testes",
+        "role": "Monta o teste: o que fazer, onde, por quanto tempo e qual número acompanhar."
+      },
+      "analyst": {
+        "name": "O analista",
+        "role": "Lê o resultado sem enfeitar e guarda o aprendizado para a próxima decisão."
+      }
+    }
+  },
+  "common": {
+    "save": "Salvar alterações",
+    "creating": "Criando…",
+    "saving": "Salvando…",
+    "adding": "Adicionando…",
+    "loading": "Carregando…",
+    "loadError": "Não foi possível carregar esta seção.",
+    "retry": "Tentar de novo",
+    "saved": "Salvo.",
+    "activate": "Ativar",
+    "cancel": "Cancelar",
+    "confirm": "Excluir",
+    "deleting": "Excluindo…",
+    "comingSoon": "Esta seção está a caminho — será construída conforme a AUREA avança pelas fases de desenvolvimento.",
+    "optional": "opcional",
+    "add": "Adicionar",
+    "removeItem": "Remover {{item}}",
+    "edit": "Editar"
+  },
+  "crud": {
+    "new": "Novo",
+    "back": "Voltar",
+    "goal": "Novo objetivo",
+    "icp": "Novo ICP",
+    "strategy": "Nova estratégia",
+    "edit": "Editar"
+  },
+  "validation": {
+    "required": "Obrigatório",
+    "tooLong": "Muito longo",
+    "url": "Deve começar com http:// ou https://",
+    "positive": "Deve ser maior que zero",
+    "number": "Precisa ser um número"
+  },
+  "errors": {
+    "zod": {
+      "invalidType": "Deve ser do tipo {{expected}}.",
+      "tooSmall": "Deve ser no mínimo {{minimum}}.",
+      "tooBig": "Deve ser no máximo {{maximum}}.",
+      "invalidFormat": "Deve ser um {{format}} válido.",
+      "invalidValue": "Deve ser um dos seguintes: {{values}}.",
+      "unrecognizedKeys": "Campo(s) inesperado(s): {{keys}}.",
+      "notMultipleOf": "Deve ser um múltiplo de {{divisor}}.",
+      "invalidUnion": "Este valor não corresponde a nenhum dos formatos aceitos.",
+      "custom": "Este valor não é válido.",
+      "generic": "Este valor não é válido. Verifique e tente novamente."
+    }
+  },
+  "status": {
+    "DRAFT": "Rascunho",
+    "ACTIVE": "Ativo",
+    "PAUSED": "Pausado",
+    "COMPLETED": "Concluído",
+    "CANCELLED": "Cancelado",
+    "PROPOSED": "Proposto",
+    "APPROVED": "Aprovado",
+    "ARCHIVED": "Arquivado",
+    "PLANNED": "Planejado",
+    "RUNNING": "Em execução",
+    "CANDIDATE": "Candidato",
+    "TESTED": "Testada",
+    "VALIDATED": "Validada",
+    "REJECTED": "Rejeitada"
+  },
+  "pages": {
+    "integrations": {
+      "title": "Fontes de dados",
+      "subtitle": "De onde a AUREA lê os seus números.",
+      "helpTitle": "Fonte de dados",
+      "help": "Um sistema que já mede o seu negócio — hoje, o Google Analytics. A AUREA lê números dele; nunca escreve nele.",
+      "propertyLabel": "ID da property do GA4",
+      "propertyHelpTitle": "Property",
+      "propertyHelp": "O ID numérico da property do Google Analytics, como aparece em Administrador → Configurações da property. Não é o ID de métrica que começa com G-.",
+      "credentialsLabel": "Chave da service account (JSON)",
+      "credentialsHelpTitle": "Service account",
+      "credentialsHelp": "Uma conta Google que pertence a um programa, não a uma pessoa. Crie uma, adicione como leitora da property e cole a chave JSON aqui. A AUREA guarda cifrada e só pede acesso de leitura.",
+      "connect": "Conectar",
+      "connecting": "Conectando…",
+      "connected": "Conectada",
+      "disconnect": "Desconectar",
+      "empty": "Nenhuma fonte conectada. Enquanto não houver, cada medição é digitada à mão.",
+      "account": "Conta",
+      "property": "Property",
+      "lastChecked": "Última verificação",
+      "connectFailed": "Não foi possível conectar esta fonte.",
+      "status": {
+        "UNVERIFIED": "Ainda não verificada",
+        "OK": "Funcionando",
+        "FAILED": "Com problema"
+      },
+      "google": {
+        "connect": "Conectar com Google",
+        "connecting": "Abrindo o Google…",
+        "failed": "Não foi possível iniciar a conexão com o Google.",
+        "notConfigured": "A conexão com o Google não está habilitada neste servidor. Use uma chave de service account abaixo.",
+        "advanced": "Usar uma chave de service account",
+        "advancedHint": "Para quando você preferir não vincular uma conta Google — leva alguns passos no console do Google Cloud.",
+        "connectedBanner": "Google conectado. Agora escolha qual property a AUREA deve ler.",
+        "errorBanner": "A conexão com o Google não foi concluída.",
+        "reason": {
+          "access_denied": "Você recusou a autorização.",
+          "no_refresh_token": "O Google não devolveu uma autorização durável. Tente de novo e aceite a tela de consentimento.",
+          "exchange_failed": "O Google recusou o código de autorização.",
+          "missing_code": "O Google não enviou código de autorização.",
+          "unknown": "O Google informou um erro sem explicar qual."
+        }
+      },
+      "picker": {
+        "title": "Qual property a AUREA deve ler?",
+        "help": "Uma property é um conjunto de dados do Google Analytics — normalmente um site ou um app. A AUREA lê uma métrica dela; nunca escreve.",
+        "helpTitle": "Property",
+        "empty": "Esta conta Google não vê nenhuma property do Analytics. Confira se ela tem acesso de leitura a alguma.",
+        "truncated": "Mostrando as primeiras 200 properties que esta conta vê. Se a sua não está aqui, use uma chave de service account para ela.",
+        "select": "Usar esta property",
+        "selecting": "Verificando…",
+        "failed": "Não foi possível ler as properties desta conta.",
+        "change": "Trocar property",
+        "cancel": "Cancelar",
+        "noneChosen": "Conectada, mas nenhuma property escolhida — a AUREA não consegue ler número nenhum até você escolher."
+      },
+      "replace": {
+        "title": "Substituir a conexão atual?",
+        "body": "Este workspace já tem uma fonte de dados conectada. Conectar outra substitui a atual, e a escolha da property começa de novo.",
+        "confirm": "Substituir",
+        "cancel": "Manter a atual"
+      },
+      "social": {
+        "title": "Redes sociais",
+        "helpTitle": "Como funciona",
+        "help": "Você autoriza cada rede num clique, na página da própria rede, e pronto: os posts que você aprovar saem por ela. Instagram e TikTok entram quando a AUREA publicar imagem.",
+        "empty": "Nenhuma rede conectada ainda. Escolha uma abaixo e autorize — leva um clique.",
+        "connectOne": "Conectar",
+        "reconnect": "Reconectar",
+        "connectFailed": "Não foi possível falar com o serviço de publicação.",
+        "disconnect": "Desconectar",
+        "disconnectTitle": "Desconectar {{network}}?",
+        "disconnectBody": "A autorização desta conta será apagada, e reconectar exige autorizar a rede de novo. Os posts já publicados continuam registrados.",
+        "bluesky": {
+          "title": "Conectar o Bluesky",
+          "body": "O Bluesky não usa OAuth: em vez de autorizar numa aba, você informa seu handle e uma senha de app. Nada disso é guardado pela AUREA.",
+          "handleLabel": "Handle (ex.: acme.bsky.social)",
+          "passwordLabel": "Senha de app",
+          "passwordHelpTitle": "Senha de app, não a sua senha",
+          "passwordHelp": "Crie uma em bsky.app → Configurações → Senhas de app. Ela é específica e revogável: você pode apagá-la lá a qualquer momento sem trocar a senha da sua conta. Nunca use a senha da conta aqui."
+        }
+      }
+    },
+    "actions": {
+      "title": "Ações",
+      "helpTitle": "O que é uma ação",
+      "help": "Uma ação é algo que AUREA vai executar por você — hoje, publicar um post. Toda ação passa por aprovação humana antes de sair.",
+      "subtitle": "O que AUREA vai fazer, e o que já fez.",
+      "empty": "Nenhuma ação ainda. Crie a primeira e ela aparece aqui.",
+      "new": "Nova ação",
+      "status": {
+        "PROPOSED": "Rascunho",
+        "PENDING_APPROVAL": "Aguardando aprovação",
+        "APPROVED": "Aprovada",
+        "EXECUTING": "Publicando",
+        "EXECUTED": "Publicado",
+        "PARTIALLY_EXECUTED": "Publicado em parte",
+        "FAILED": "Falhou",
+        "CANCELLED": "Cancelada",
+        "DELIVERY_UNKNOWN": "Entrega incerta"
+      },
+      "filter": {
+        "all": "Todas",
+        "PROPOSED": "Rascunhos",
+        "PENDING_APPROVAL": "Em aprovação",
+        "APPROVED": "Aprovadas",
+        "EXECUTED": "No ar",
+        "PARTIALLY_EXECUTED": "Parciais",
+        "FAILED": "Falhas",
+        "DELIVERY_UNKNOWN": "A confirmar"
+      },
+      "approval": {
+        "PENDING": "Aguardando",
+        "APPROVED": "Aprovado",
+        "REJECTED": "Rejeitado"
+      },
+      "form": {
+        "nameLabel": "Nome interno",
+        "nameHelpTitle": "Para que serve o nome",
+        "nameHelp": "É como você reconhece esta ação numa lista. Não é o título do post e não vai publicado.",
+        "contentLabel": "Texto do post",
+        "briefLabel": "O que você quer dizer (opcional)",
+        "experimentLabel": "Experimento (opcional)",
+        "experimentHelpTitle": "Por que ligar a um experimento",
+        "experimentHelp": "Ligar a ação a um experimento é o que permite comparar o que você fez com o que foi medido depois.",
+        "noExperiment": "Sem experimento",
+        "generate": "Escrever com IA",
+        "applyProposal": "Usar este texto",
+        "create": "Criar rascunho",
+        "creating": "Criando…",
+        "goToIntegrations": "Ir para integrações",
+        "createFailed": "Não foi possível criar a ação.",
+        "platformsLabel": "Onde publicar",
+        "platformsHelpTitle": "De onde vêm as redes",
+        "platformsHelp": "São as contas que você conectou em Fontes de dados. Um post sai em todas as que você escolher aqui.",
+        "platformsCount": "publicar em {{count}} rede",
+        "platformsCount_plural": "publicar em {{count}} redes",
+        "needsSocial": "Conecte uma rede social antes de criar uma ação: sem ela não há para onde publicar.",
+        "media": {
+          "label": "Imagens ou vídeo (opcional)",
+          "helpTitle": "Arquivos do post",
+          "help": "Até 4 imagens de 10MB (PNG, JPEG, WebP) ou um vídeo de 200MB (MP4, MOV, WebM). Não misture imagem e vídeo: nenhuma rede publica os dois juntos. Instagram, TikTok e YouTube só publicam com arquivo.",
+          "add": "Adicionar arquivo",
+          "uploading": "Enviando…",
+          "remove": "Remover arquivo",
+          "atMost": "Máximo de {{count}} arquivos.",
+          "tooMany": "No máximo {{count}} arquivos por post.",
+          "tooLarge": "{{name}} passa de 10MB.",
+          "videoTooLarge": "{{name}} passa de 200MB.",
+          "mixed": "Um post leva imagens ou um vídeo, nunca os dois.",
+          "failed": "Não foi possível enviar o arquivo."
+        },
+        "videoTitleLabel": "Título do vídeo",
+        "videoTitleHelpTitle": "Por que o título",
+        "videoTitleHelp": "O YouTube não publica vídeo sem título — ele aparece acima do player. Até 100 caracteres. A legenda do post vira a descrição.",
+        "platforms": {
+          "needsMedia": "precisa de imagem ou vídeo",
+          "noVideo": "não publica vídeo",
+          "noImage": "não publica imagem",
+          "tooManyFor": "aceita no máximo {{count}} arquivo",
+          "tooManyFor_plural": "aceita no máximo {{count}} arquivos"
+        }
+      },
+      "detail": {
+        "content": "Texto do post",
+        "submit": "Enviar para aprovação",
+        "approve": "Aprovar",
+        "reject": "Rejeitar",
+        "commentLabel": "Motivo da rejeição",
+        "execute": "Publicar agora",
+        "confirmExecute": {
+          "title": "Publicar em {{networks}} agora?",
+          "body": "O post sai público nessas redes em instantes. A AUREA não consegue apagá-lo depois — para remover, você teria que ir em cada rede.",
+          "retryBody": "Só as redes que ainda não publicaram serão tentadas. Se alguma tentativa anterior tiver saído sem a AUREA saber, confira antes.",
+          "confirm": "Publicar",
+          "youtubePublic": "público"
+        },
+        "executing": "Publicando nas redes…",
+        "cancel": "Cancelar ação",
+        "history": "Histórico de aprovação",
+        "requestedBy": "Pedido por",
+        "reviewedBy": "Decidido por",
+        "attempts": "Tentativas",
+        "actionFailed": "Não foi possível concluir a ação.",
+        "targets": "Redes",
+        "seePost": "ver o post",
+        "retry": "Publicar nas que faltam",
+        "media": "Imagens"
+      },
+      "delivery": {
+        "title": "Confira antes de decidir",
+        "checkFirst": "A conexão caiu no meio do envio, então não sabemos se o post saiu. Confira o canal antes de decidir — publicar de novo criaria um post duplicado.",
+        "attemptedAt": "Tentativa em",
+        "externalIdLabel": "Id do post (se você conseguir copiar)",
+        "published": "Já publicou — marcar como entregue",
+        "notPublished": "Não publicou — liberar para tentar de novo"
+      },
+      "targetStatus": {
+        "PENDING": "A publicar",
+        "PUBLISHING": "Publicando",
+        "PUBLISHED": "Publicado",
+        "FAILED": "Falhou",
+        "DELIVERY_UNKNOWN": "Entrega incerta"
+      }
+    },
+    "business": {
+      "title": "Negócio",
+      "subtitle": "Conte à AUREA sobre seu negócio. Isso embasa cada recomendação.",
+      "cardHelpTitle": "Contexto do Negócio",
+      "cardHelp": "O entendimento acumulado do seu negócio — produtos, mercado, posicionamento. A AUREA raciocina a partir dele para você nunca ter que se explicar de novo.",
+      "setupTitle": "Cadastrar seu negócio",
+      "setupBody": "Quatro campos rápidos e pronto. O resto é opcional e pode ser preenchido depois.",
+      "setupButton": "Cadastrar negócio",
+      "editInfo": "Editar Info",
+      "noBusiness": "Nenhum negócio ainda.",
+      "progressLabel": "{{pct}}% completo — {{missing}} seções faltando",
+      "progressComplete": "100% completo",
+      "deleteTitle": "Excluir negócio",
+      "deleteBody": "Isso removerá permanentemente seu negócio e todos os seus dados. Esta ação não pode ser desfeita.",
+      "deleteFailed": "Não foi possível excluir o negócio. Tente novamente em instantes.",
+      "sections": {
+        "company": "Empresa",
+        "products": "Produtos e Serviços",
+        "competitive": "Concorrência",
+        "market": "Mercado",
+        "constraints": "Recursos",
+        "performance": "Performance",
+        "activities": "Atividades",
+        "projects": "Projetos",
+        "campaigns": "Campanhas"
+      },
+      "saveFailed": "Não foi possível salvar. Tente de novo.",
+      "contextHint": "Seções opcionais. Preencha as que quiser, na ordem que quiser — cada uma salva sozinha.",
+      "continueContext": "Continuar",
+      "setup": {
+        "title": "Cadastrar seu negócio",
+        "editTitle": "Editar negócio",
+        "subtitle": "Só o nome é obrigatório. O resto afina o que a AUREA recomenda.",
+        "name": "Nome do negócio",
+        "namePh": "Acme Ltda.",
+        "website": "Site",
+        "industry": "Setor",
+        "industryPh": "SaaS B2B, e-commerce, agência…",
+        "description": "Descrição do negócio",
+        "descriptionPh": "O que a empresa faz, em poucas frases.",
+        "businessModel": "Modelo de negócio",
+        "businessModelPh": "B2B, B2C, marketplace…",
+        "revenueModel": "Modelo de receita",
+        "revenueModelPh": "Assinatura, comissão, venda única…",
+        "valueProposition": "O que você vende, e para quem?",
+        "valuePropositionPh": "Uma frase: o que você entrega e quem compra.",
+        "advanced": "Posicionamento (opcional)",
+        "positioning": "Declaração de posicionamento",
+        "positioningPh": "Para [público] que [necessidade], somos a [categoria] que [diferencial].",
+        "submit": "Criar negócio",
+        "afterHint": "Você adiciona produtos, mercado, concorrentes e métricas depois — uma seção por vez."
+      },
+      "context": {
+        "eyebrow": "Contexto · {{current}} de {{total}}",
+        "backToBusiness": "Voltar para o negócio",
+        "unsaved": "Alterações não salvas",
+        "saved": "Seção salva",
+        "saveAndNext": "Salvar e próxima",
+        "saveAndClose": "Salvar e fechar"
+      },
+      "sectionMarker": {
+        "ai": "preenchida pela IA",
+        "manual": "só você preenche"
+      },
+      "sectionLegend": "Borda azul à esquerda: seções que a IA preenche.",
+      "proposal": {
+        "pending": "proposta esperando revisão"
+      },
+      "tabs": {
+        "context": "Contexto",
+        "profile": "Perfil",
+        "icps": "Clientes ideais"
+      },
+      "aiDraft": "Rascunho da IA — revise e salve para confirmar"
+    },
+    "icps": {
+      "title": "Clientes ideais",
+      "helpTitle": "ICP",
+      "help": "Perfil de Cliente Ideal — o tipo de cliente que vale a pena adquirir. Defina um; objetivos e estratégias miram nele.",
+      "subtitle": "Quem seu crescimento mira.",
+      "cardTitle": "Novo ICP",
+      "name": "Nome",
+      "nameHelp": "Um nome curto e fácil de lembrar para este perfil de cliente, ex.: \"Fundador de SaaS early-stage\". É como você vai reconhecer este ICP quando o vir de novo.",
+      "namePh": "Fundador de SaaS early-stage",
+      "description": "Descrição",
+      "painPoints": "Dores",
+      "painPointsHelp": "Os problemas que esse cliente enfrenta hoje. Adicione cada dor como um item separado para que ela possa ser acompanhada individualmente — uma vírgula digitada dentro de um item continua fazendo parte dele, ela não é dividida em dores separadas.",
+      "painPointsPh": "sem tempo para comparar fornecedores",
+      "characteristics": "Características",
+      "characteristicsHelp": "Traços que descrevem esse cliente além da dor — cargo, tamanho da empresa, como compra. Adicione cada um como um item separado.",
+      "characteristicsPh": "lidera um time de 5 a 10 pessoas",
+      "customerGoals": "O que ele quer",
+      "customerGoalsHelp": "O que esse cliente está tentando alcançar. Adicione cada objetivo como um item separado.",
+      "customerGoalsPh": "entregar mais rápido sem contratar",
+      "buyingTriggers": "Gatilhos de compra",
+      "buyingTriggersHelp": "Os momentos que fazem esse cliente começar a procurar uma solução como a sua. Adicione cada gatilho como um item separado.",
+      "buyingTriggersPh": "acabou de perder um prazo",
+      "objections": "Objeções",
+      "objectionsHelp": "Os motivos que fazem esse cliente hesitar em comprar. Adicione cada objeção como um item separado.",
+      "objectionsPh": "preocupado com o esforço de migração",
+      "addBtn": "Adicionar ICP",
+      "empty": "Nenhum ICP ainda. Adicione o primeiro acima.",
+      "pain": "Dor"
+    },
+    "goals": {
+      "title": "Metas",
+      "helpTitle": "Objetivo",
+      "help": "Um resultado mensurável que você quer, ex.: \"1.000 leads qualificados/mês\". Objetivos guiam cada estratégia e experimento.",
+      "subtitle": "O que você quer alcançar.",
+      "cardTitle": "Novo objetivo",
+      "name": "Nome",
+      "namePh": "1.000 leads qualificados/mês",
+      "description": "Descrição",
+      "descriptionPh": "Por que esse objetivo importa agora.",
+      "metric": "Métrica",
+      "metricHelpTitle": "Métrica",
+      "metricHelp": "O número que você vai acompanhar, ex.: qualified_leads, MRR, CAC.",
+      "metricPh": "qualified_leads",
+      "target": "Meta",
+      "targetHelpTitle": "Meta",
+      "targetHelp": "O valor que esse objetivo persegue. Sem ele, não há com o que comparar o progresso.",
+      "baseline": "Linha de base",
+      "baselineHelpTitle": "Linha de base",
+      "baselineHelp": "Onde a métrica está hoje. Preencha só com um número que você já tem registrado — nunca um chute.",
+      "unit": "Unidade",
+      "unitPh": "leads",
+      "deadline": "Prazo",
+      "priority": "Prioridade",
+      "prioritySelect": "Qual a urgência disso?",
+      "createBtn": "Criar objetivo",
+      "empty": "Nenhum objetivo ainda. Crie o primeiro acima.",
+      "action": {
+        "activate": "Ativar",
+        "pause": "Pausar",
+        "complete": "Concluir",
+        "cancel": "Cancelar objetivo",
+        "confirm": {
+          "cancel": {
+            "title": "Cancelar este objetivo?",
+            "body": "Um objetivo cancelado não volta atrás, e as estratégias e experimentos abaixo dele perdem o número que perseguiam. Para parar por ora e retomar depois, pause em vez de cancelar."
+          }
+        }
+      }
+    },
+    "research": {
+      "title": "O que o mercado diz",
+      "subtitle": "A AUREA pesquisa a web a partir do seu objetivo e traz o que encontrou, com fontes.",
+      "helpTitle": "Pesquisa",
+      "help": "A AUREA lê seu objetivo, seus ICPs e o contexto do seu negócio, depois pesquisa a web pública em busca de evidências sobre seu mercado, seus concorrentes e seus clientes. Você escolhe quais achados guardar — os que você guarda passam a fazer parte do contexto do seu negócio, que toda estratégia seguinte lê.",
+      "goalLabel": "Objetivo a pesquisar",
+      "goalSelect": "Sobre qual objetivo a AUREA deve pesquisar?",
+      "needGoal": "Defina um objetivo primeiro — pesquisar sem um objetivo é só navegar.",
+      "cost": "Custa {{credits}} créditos",
+      "short": "Créditos insuficientes para esta pesquisa.",
+      "topUp": "Comprar créditos",
+      "startBtn": "Pesquisar este objetivo",
+      "startFailed": "Não foi possível iniciar a pesquisa. Tente novamente em instantes.",
+      "forGoal": "Para o objetivo: {{name}}",
+      "thinking": "A AUREA está pesquisando — lendo seu contexto e depois buscando na web.",
+      "failed": "Esse processamento não terminou.",
+      "retryBtn": "Tentar novamente",
+      "startAnotherBtn": "Iniciar outra pesquisa",
+      "newResearchBtn": "Nova pesquisa (escolher objetivo)",
+      "unreadable": "Essa pesquisa não pôde ser lida. Inicie outra.",
+      "reviewTitle": "O que a AUREA encontrou",
+      "summaryLabel": "Em resumo",
+      "findingsLabel": "Achados",
+      "sourceLabel": "Fonte",
+      "evidenceLabel": "O que a página dizia",
+      "dimensionHelpTitle": "Dimensão",
+      "dimensionHelp": "A que parte do seu mercado este achado se refere — o próprio mercado, um concorrente, seus clientes ou uma tendência.",
+      "confidenceHelpTitle": "Confiança",
+      "confidenceHelp": "O quanto a fonte sustenta essa afirmação, no julgamento da AUREA — não uma garantia de que seja verdade.",
+      "strengthsLabel": "Pontos fortes",
+      "weaknessesLabel": "Pontos fracos",
+      "acceptLabel": "Guardar este",
+      "savedBadge": "Já está no contexto",
+      "notFiled": "Vale saber, mas não se encaixa em nenhuma parte do contexto do seu negócio.",
+      "opportunitiesLabel": "Oportunidades",
+      "opportunityHelpTitle": "Oportunidade",
+      "opportunityHelp": "Uma leitura da própria AUREA a partir de vários achados juntos, não um achado isolado — um possível ângulo a explorar. Você decide se ela merece um lugar no contexto do seu negócio.",
+      "acceptBtn": "Guardar selecionados",
+      "saveAllBtn": "Guardar os {{remaining}} restantes",
+      "acceptFailed": "Não foi possível salvar esses achados. Tente novamente em instantes.",
+      "accepted": "Salvo no contexto do seu negócio.",
+      "acceptHelpTitle": "Guardar um achado",
+      "acceptHelp": "Um achado guardado entra no contexto do seu negócio como algo pesquisado, nunca como fato confirmado. Nada é sobrescrito — o contexto anterior continua existindo como uma versão anterior.",
+      "dimension": {
+        "MARKET": "Mercado",
+        "COMPETITOR": "Concorrente",
+        "CUSTOMER": "Cliente",
+        "TREND": "Tendência"
+      },
+      "confidence": {
+        "LOW": "Confiança baixa",
+        "MEDIUM": "Confiança média",
+        "HIGH": "Confiança alta"
+      },
+      "removeBtn": "Remover do contexto",
+      "removeFailed": "Não foi possível remover isso do contexto. Tente novamente em instantes.",
+      "findingPosition": "Achado {{position}} de {{total}}",
+      "opportunityPosition": "Oportunidade {{position}} de {{total}}",
+      "savedCount": "{{saved}} de {{total}} guardados",
+      "goToCard": "Ir para o item {{position}}",
+      "prevBtn": "Anterior",
+      "nextBtn": "Próximo",
+      "allKept": "Tudo o que dava para guardar já está no contexto do seu negócio.",
+      "runsLabel": "Suas pesquisas",
+      "unnamedRun": "Pesquisa sem objetivo identificado",
+      "meanwhile": "Você pode abrir outra pesquisa para outro objetivo enquanto esta roda.",
+      "runStatus": {
+        "running": "pesquisando",
+        "ready": "pronta para revisar",
+        "failed": "não terminou"
+      }
+    },
+    "strategies": {
+      "title": "Planos",
+      "helpTitle": "Estratégia",
+      "help": "Como você pretende alcançar um objetivo — o mecanismo de crescimento e os canais, não uma lista de tarefas. Em breve a AUREA propõe isso.",
+      "subtitle": "Como você pretende crescer.",
+      "cardTitle": "Nova estratégia",
+      "needGoal": "Crie um objetivo primeiro — uma estratégia precisa mirar um objetivo.",
+      "name": "Nome",
+      "namePh": "Captura de demanda de alta intenção",
+      "mechanism": "Mecanismo de crescimento",
+      "mechanismHelpTitle": "Mecanismo de crescimento",
+      "mechanismHelp": "Como o crescimento acontece: captura de demanda, PLG, indicação, outbound, etc.",
+      "mechanismPh": "Captura de demanda",
+      "goal": "Objetivo",
+      "goalSelect": "Selecione um objetivo",
+      "goalHelp": "O objetivo que esta estratégia deve mover. Se o objetivo que você precisa ainda não estiver na lista, crie-o primeiro.",
+      "createBtn": "Criar estratégia",
+      "empty": "Nenhuma estratégia ainda.",
+      "mechanismLabel": "Mecanismo",
+      "thesis": "Tese estratégica",
+      "thesisHelpTitle": "Tese estratégica",
+      "thesisHelp": "A aposta por baixo da estratégia: por que este caminho até o objetivo, e não outro.",
+      "propose": {
+        "title": "Deixe a AUREA propor",
+        "helpTitle": "Estratégias propostas",
+        "help": "A AUREA lê seu objetivo, seus ICPs e o contexto do seu negócio, e propõe duas ou três formas diferentes de perseguir o objetivo — com o que cada uma abre mão. Você escolhe; nada é criado até você decidir.",
+        "goalLabel": "Objetivo de partida",
+        "goalSelect": "Sobre qual objetivo a AUREA deve raciocinar?",
+        "needGoal": "Defina um objetivo primeiro — uma estratégia sem objetivo é uma preferência, não um plano.",
+        "cost": "Custa {{credits}} créditos",
+        "short": "Créditos insuficientes para este processamento.",
+        "topUp": "Comprar créditos",
+        "startBtn": "Propor estratégias",
+        "startFailed": "Não foi possível iniciar a proposta. Tente novamente em instantes.",
+        "forGoal": "Para o objetivo: {{name}}",
+        "thinking": "A AUREA está pensando — lendo seu objetivo, seus ICPs e o contexto do seu negócio.",
+        "failed": "Este processamento não terminou.",
+        "retryBtn": "Tentar novamente",
+        "reviewTitle": "Escolha uma opção",
+        "recommended": "Recomendada",
+        "recommendedHelpTitle": "Recomendada",
+        "recommendedHelp": "É a sugestão da AUREA, não uma decisão já tomada — você ainda escolhe qual opção vira a estratégia.",
+        "tradeoffsLabel": "Abre mão de",
+        "hypothesesLabel": "O que ela testaria",
+        "useBtn": "Usar esta",
+        "startAnotherBtn": "Iniciar outro processamento",
+        "unreadable": "Essa proposta não pôde ser lida. Inicie outro processamento.",
+        "acceptFailed": "Não foi possível criar a estratégia. Tente novamente em instantes.",
+        "basedOnLabel": "Apoiada no que já aprendemos",
+        "planPosition": "Plano {{position}} de {{total}}",
+        "prevBtn": "Anterior",
+        "nextBtn": "Próximo",
+        "goToPlan": "Ir para o plano {{position}}",
+        "pickedCount": "{{picked}} marcados para combinar",
+        "includeLabel": "Incluir neste plano",
+        "combineBtn": "Combinar {{count}} planos",
+        "reviewBtn": "Revisar e criar plano",
+        "combineHelpTitle": "Combinar planos",
+        "combineHelp": "Marque mais de uma opção e a AUREA monta um plano só com as duas: os canais, premissas e riscos são unidos sem repetir, e as hipóteses de todas entram. Você revisa e edita tudo antes de criar.",
+        "recommendedHint": "A AUREA começaria por \"{{name}}\".",
+        "buildingDraft": "Montando o plano combinado…",
+        "draftFailed": "Não foi possível montar o plano combinado. Tente novamente.",
+        "editorTitle": "Revise o plano antes de criar",
+        "combining": "Combinando: {{names}}",
+        "nameLabel": "Nome do plano",
+        "mechanismLabel": "Mecanismo de crescimento",
+        "mechanismHelp": "Em poucas palavras, como o crescimento acontece neste plano — por exemplo Captação de demanda, Geração de demanda, Indicação, Conteúdo ou Prospecção ativa.",
+        "thesisLabel": "Tese: por que isso funciona neste negócio",
+        "outcomeLabel": "Resultado esperado",
+        "channelsLabel": "Canais",
+        "addChannel": "Adicionar canal",
+        "assumptionsLabel": "Premissas",
+        "addAssumption": "Adicionar premissa",
+        "risksLabel": "Riscos",
+        "addRisk": "Adicionar risco",
+        "removeItem": "Remover {{item}}",
+        "hypothesisLabel": "Hipótese {{position}}",
+        "addHypothesis": "Adicionar hipótese",
+        "removeHypothesis": "Remover hipótese",
+        "hypothesisStatement": "O que você acredita",
+        "hypothesisRationale": "Por que você acredita nisso",
+        "hypothesisMetric": "Métrica que diz se funcionou",
+        "hypothesisOutcome": "Resultado esperado",
+        "hypothesisConfidence": "Confiança",
+        "tooManyItems": "Uma das listas passou do limite: até {{channels}} canais, {{assumptions}} premissas, {{risks}} riscos e {{hypotheses}} hipóteses. Remova o que sobrou.",
+        "createBtn": "Criar plano",
+        "backBtn": "Voltar aos planos"
+      },
+      "autoPlan": {
+        "title": "Testes deste plano",
+        "helpTitle": "O que a AUREA desenha",
+        "help": "A AUREA desenha o teste de cada hipótese: nome, métrica, canal, público e critério de sucesso. O número de onde você parte, a meta e as datas são seus — um baseline inventado seria lido depois como medição.",
+        "summary": "{{count}} hipótese sem teste desenhado",
+        "summary_other": "{{count}} hipóteses sem teste desenhado",
+        "cost": "{{credits}} créditos",
+        "startBtn": "Gerar {{count}} teste",
+        "startBtn_other": "Gerar {{count}} testes",
+        "short": "Saldo insuficiente para o lote inteiro.",
+        "topUp": "Adicionar créditos",
+        "startFailed": "Não foi possível começar. Tente de novo.",
+        "partial": "{{count}} hipótese ficou de fora. Tente novamente para cobrir o que faltou.",
+        "partial_other": "{{count}} hipóteses ficaram de fora. Tente novamente para cobrir o que faltou.",
+        "runWorking": "Desenhando o teste de \"{{name}}\"…",
+        "runDone": "Teste de \"{{name}}\" criado.",
+        "runFailed": "O desenho do teste de \"{{name}}\" falhou.",
+        "createFailed": "O teste foi desenhado, mas não foi possível criá-lo.",
+        "retryBtn": "Tentar de novo",
+        "missing": "faltam {{count}} campo seu",
+        "missing_other": "faltam {{count}} campos seus"
+      }
+    },
+    "experiments": {
+      "title": "Testes",
+      "helpTitle": "Experimento",
+      "help": "Uma tentativa deliberada de mover uma métrica, com uma hipótese por trás e um critério de sucesso definido antes de começar. É isso que separa um experimento de mera atividade.",
+      "subtitle": "Cada teste checa uma hipótese contra um número.",
+      "empty": "Nenhum experimento ainda.",
+      "emptyHint": "Um experimento sempre testa uma hipótese, então comece por uma estratégia: abra uma, adicione a hipótese que quer testar e desenhe o experimento para ela.",
+      "metricLabel": "Métrica",
+      "actionFailed": "Não foi possível aplicar essa mudança. Tente novamente em instantes.",
+      "metricHelpTitle": "Métrica",
+      "metricHelp": "O único número que este experimento tenta mover. Escolhido antes de começar, para que o resultado não possa ser rediscutido depois.",
+      "baseline": "Linha de base",
+      "baselineHelpTitle": "Linha de base",
+      "baselineHelp": "Onde a métrica estava antes do experimento. Sem ela, a meta é só um número — não há com o que comparar.",
+      "target": "Meta",
+      "targetHelpTitle": "Meta",
+      "targetHelp": "O valor que faria este experimento valer a pena.",
+      "successCriteria": "Critério de sucesso",
+      "successHelpTitle": "Critério de sucesso",
+      "successHelp": "O que conta como vitória, escrito antes de o resultado ser conhecido. É isso que impede que um resultado ruim seja reinterpretado como bom.",
+      "objective": "Objetivo",
+      "channel": "Canal",
+      "audience": "Público",
+      "window": "Período",
+      "description": "Descrição",
+      "descriptionPh": "O que você está testando e como.",
+      "startDate": "Data de início",
+      "endDate": "Data de término",
+      "newTitle": "Novo experimento",
+      "newSubtitle": "Uma hipótese, uma métrica e o que contaria como sucesso — decidido agora, não depois do resultado.",
+      "needHypothesis": "Ainda não há hipótese que valha testar. Um experimento sempre testa uma hipótese, então escreva a hipótese primeiro: abra uma estratégia e adicione-a lá.",
+      "hypothesis": "Hipótese em teste",
+      "hypothesisSelect": "Escolha a hipótese que este experimento testa",
+      "name": "Nome",
+      "namePh": "Primeiro contato em texto puro com líderes de operações",
+      "metricPh": "taxa_de_resposta",
+      "objectivePh": "Agendar 10 calls de descoberta",
+      "channelPh": "E-mail",
+      "audiencePh": "Líderes de operações em empresas de 50 a 200 pessoas",
+      "successPh": "Ao menos 8 calls agendadas em 3 semanas",
+      "createBtn": "Criar experimento",
+      "createFailed": "Não foi possível criar o experimento. Tente novamente em instantes.",
+      "action": {
+        "plan": "Planejar",
+        "approve": "Aprovar",
+        "start": "Iniciar",
+        "pause": "Pausar",
+        "complete": "Concluir",
+        "cancel": "Cancelar experimento",
+        "confirm": {
+          "cancel": {
+            "title": "Cancelar este experimento?",
+            "body": "Um experimento cancelado não pode ser reaberto nem reiniciado, e não gerará resultado para aprender. Esta ação não pode ser desfeita."
+          }
+        }
+      },
+      "outcomes": {
+        "title": "Resultados medidos",
+        "helpTitle": "Resultado",
+        "help": "Um número realmente medido depois que o experimento rodou, com o dia em que foi observado e de onde veio. Sem esses dois, o número não é confiável meses depois.",
+        "empty": "Nada medido ainda.",
+        "againstTarget": "para uma meta de {{target}}",
+        "valueLabel": "Valor medido",
+        "unitLabel": "Unidade",
+        "observedAtLabel": "Observado em",
+        "observedAtHelpTitle": "Observado em",
+        "observedAtHelp": "O dia em que o número era verdade, não o dia em que foi digitado. Deixe em branco para hoje. Uma data no futuro é recusada: uma observação que ainda não aconteceu não é uma observação.",
+        "recordAndInterpret": "Gravar e interpretar",
+        "cost": "{{credits}} crédito para AUREA ler o resultado",
+        "cost_other": "{{credits}} créditos para AUREA ler o resultado",
+        "balance": "saldo: {{credits}}",
+        "short": "Saldo insuficiente para a leitura. Você ainda pode gravar o número — a leitura fica para depois.",
+        "interpretSkipped": "a leitura não foi enfileirada",
+        "recordedWithoutInterpretation": "Número gravado. A leitura não rodou: {{reason}}",
+        "recordFailed": "Não foi possível registrar essa medição. Tente de novo em instantes.",
+        "source": {
+          "USER": "Digitado à mão"
+        },
+        "movement": "{{delta}} desde o início ({{pct}}%)",
+        "movementNoPct": "{{delta}} desde o início",
+        "ofTarget": "{{pct}}% da meta"
+      },
+      "next": {
+        "measure": "Este experimento terminou. Registre o que ele mediu — enquanto não houver um número, ele não gerou nada para aprender.",
+        "learn": "Já existe uma medição. Escreva o que ela ensinou: é isso que faz o próximo experimento ser melhor que este."
+      },
+      "learnings": {
+        "title": "O que aprendemos",
+        "helpTitle": "Aprendizado",
+        "help": "O que a medição ensinou, escrito como uma afirmação de que alguém poderia discordar. Um candidato não é conhecimento: só vira conhecimento quando uma pessoa valida.",
+        "empty": "Nada escrito ainda.",
+        "titleLabel": "Aprendizado",
+        "titlePh": "Líderes de operações respondem, mas só a texto simples",
+        "statementLabel": "O que diz",
+        "statementPh": "Primeiros contatos em texto simples agendaram 9 calls; os com template não agendaram nenhuma.",
+        "proposeBtn": "Propor um aprendizado",
+        "proposeFailed": "Não foi possível salvar esse aprendizado. Tente de novo em instantes.",
+        "actionFailed": "Não foi possível aplicar essa mudança. Tente de novo em instantes.",
+        "action": {
+          "validate": "Validar",
+          "reject": "Rejeitar",
+          "archive": "Arquivar",
+          "confirm": {
+            "reject": {
+              "title": "Rejeitar este aprendizado?",
+              "body": "Um aprendizado rejeitado não pode ser proposto de novo, e a AUREA não vai raciocinar a partir dele. Esta ação não pode ser desfeita."
+            },
+            "archive": {
+              "title": "Arquivar este aprendizado?",
+              "body": "Um aprendizado arquivado não pode ser reaberto. Arquive quando ele não descrever mais o negócio. Esta ação não pode ser desfeita."
+            }
+          }
+        }
+      },
+      "binding": {
+        "title": "De onde vem este número",
+        "helpTitle": "Amarração da métrica",
+        "help": "Qual métrica da sua fonte de dados responde pela métrica deste experimento. O nome que você escreveu é seu; este é o nome que a fonte entende. Sem amarração, você continua digitando o número à mão — nada quebra.",
+        "metricLabel": "Métrica da fonte",
+        "metricHelpTitle": "Métrica",
+        "metricHelp": "O nome técnico que a fonte usa, como `conversions` ou `activeUsers`. Tem que ser um que a property realmente tenha.",
+        "filterFieldLabel": "Campo do filtro",
+        "filterValueLabel": "Valor do filtro",
+        "filterHelpTitle": "Filtro",
+        "filterHelp": "Opcional. Restringe a métrica a uma parte do que ela conta — por exemplo o campo `eventName` com o valor `sign_up`, para contar só os cadastros.",
+        "save": "Salvar amarração",
+        "remove": "Remover amarração",
+        "bound": "Amarrada a",
+        "filteredBy": "filtrada por",
+        "aiLabel": "Perguntar à AUREA qual métrica serve",
+        "aiNothingFits": "A AUREA não achou nesta property nenhuma métrica que responda por este experimento. Nada foi preenchido.",
+        "aiRationale": "Por quê",
+        "metricRequired": "Diga qual é a métrica da fonte.",
+        "bothFilterFields": "Preencha os dois campos do filtro, ou nenhum.",
+        "saveFailed": "Não foi possível salvar esta amarração.",
+        "notConnected": "Nenhuma fonte de dados está conectada ainda.",
+        "connectLink": "Conectar uma"
+      },
+      "measurement": {
+        "title": "O que a fonte mediu",
+        "helpTitle": "Proveniência",
+        "help": "De onde veio este número: qual property, qual consulta, qual período. A AUREA lê; você confirma. Um número com que ninguém concordou não é resultado.",
+        "period": "Período",
+        "source": "Fonte",
+        "reference": "Referência",
+        "confirm": "Confirmar esta medição",
+        "confirming": "Gravando…",
+        "zero": "A fonte respondeu zero para este período. Isso é uma medição, não uma falha — mas é também a cara de um tracking quebrado, então confira o período antes de confirmar.",
+        "orManual": "Ou digite outro número abaixo.",
+        "retry": "Ler de novo",
+        "failed": "Não foi possível ler a medição.",
+        "noBinding": "Este experimento ainda não diz de onde vem o número dele, então não há o que ler.",
+        "noSource": "Nenhuma fonte de dados está conectada, então não há o que ler.",
+        "noPeriod": "Este experimento não tem data de início e fim, e sem período não há o que medir.",
+        "notReady": "A AUREA lê o número quando o experimento termina."
+      },
+      "interpret": {
+        "title": "O que o resultado significa",
+        "help": "Interpretação",
+        "helpText": "A AUREA lê os resultados registrados contra a linha de base e a meta, sugere o que pode explicá-los e rascunha um aprendizado. Ela nunca decide se o experimento deu certo — esse julgamento continua seu.",
+        "run": "Ler o resultado",
+        "cost": "{{credits}} créditos",
+        "running": "Lendo seu resultado…",
+        "failed": "A AUREA não conseguiu ler este resultado. Tente de novo.",
+        "notReady": "Conclua o experimento e registre um resultado primeiro.",
+        "reading": "A leitura",
+        "drivers": "O que pode explicar",
+        "caveats": "Com o que ter cuidado",
+        "draft": "Rascunho de aprendizado",
+        "accept": "Salvar como aprendizado",
+        "dismiss": "Descartar",
+        "orWrite": "ou escreva você mesmo abaixo",
+        "accepted": "Salvo. Valide quando tiver confiança."
+      }
+    },
+    "hypotheses": {
+      "helpTitle": "Hipótese",
+      "help": "Uma crença enunciada de modo que possa estar errada: o que você acha que vai acontecer, com quem e por quê. Um experimento é como você descobre.",
+      "title": "Hipóteses — o que vamos testar",
+      "empty": "Nenhuma hipótese ainda. Escreva o que você acredita que vai funcionar e por quê — é isso que um experimento testa.",
+      "addTitle": "Adicionar hipótese",
+      "addBtn": "Adicionar hipótese",
+      "statement": "Enunciado",
+      "statementHelpTitle": "Enunciado",
+      "statementHelp": "Escrito de modo que possa se revelar falso: quem, o que muda e em qual direção. \"Líderes de operações respondem mais a um primeiro contato em texto puro\" pode estar errado; \"melhorar a prospecção\" não.",
+      "statementPh": "Líderes de operações respondem mais a um primeiro contato em texto puro",
+      "rationale": "Por que você acredita nisso",
+      "rationalePh": "Modelos formatados são lidos como marketing",
+      "expectedOutcome": "Resultado esperado",
+      "expectedOutcomePh": "Taxa de resposta acima de 12%",
+      "confidence": "Confiança",
+      "confidenceHelpTitle": "Confiança",
+      "confidenceHelp": "Quão certo você está antes de testar. Confiança baixa não é motivo para não testar — um teste barato de uma crença duvidosa costuma ser o mais informativo.",
+      "confidenceSelect": "Quão certo você está?",
+      "designExperiment": "Desenhar um experimento",
+      "createFailed": "Não foi possível adicionar a hipótese. Tente novamente em instantes.",
+      "actionFailed": "Não foi possível aplicar essa mudança. Tente novamente em instantes.",
+      "action": {
+        "propose": "Propor",
+        "tested": "Marcar como testada",
+        "validate": "Validar",
+        "reject": "Rejeitar",
+        "confirm": {
+          "reject": {
+            "title": "Rejeitar esta hipótese?",
+            "body": "Uma hipótese rejeitada não pode ser reaberta, e qualquer experimento que a teste perde o sentido. Esta ação não pode ser desfeita."
+          }
+        }
+      }
+    },
+    "billing": {
+      "title": "Cobrança e créditos",
+      "subtitle": "Seu plano, seus créditos e para onde eles foram.",
+      "helpTitle": "Cobrança",
+      "help": "Quem assina é a sua organização; cada workspace dela recebe os créditos mensais do plano. Comprar um pacote adiciona créditos que não expiram.",
+      "plans": {
+        "title": "Planos",
+        "helpTitle": "Plano",
+        "help": "O plano define quantos créditos cada workspace recebe por mês e quantos workspaces você pode criar.",
+        "current": "Plano atual",
+        "creditsPerMonth": "{{count}} créditos/mês",
+        "workspaceCap": "Até {{count}} workspaces",
+        "perMonth": "/mês",
+        "subscribe": "Assinar",
+        "switch": "Mudar para este plano",
+        "changed": "Plano alterado. A nova franquia já está disponível.",
+        "ownerOnlyHelpTitle": "Quem pode mudar o plano",
+        "ownerOnly": "Só o proprietário da organização pode assinar ou mudar o plano. Peça para ele."
+      },
+      "packs": {
+        "title": "Pacotes de crédito",
+        "helpTitle": "Créditos comprados",
+        "help": "Créditos que você compra uma vez. Não expiram, não renovam e continuam gastáveis mesmo com a assinatura cancelada.",
+        "credits": "{{count}} créditos",
+        "buy": "Comprar",
+        "adminOnlyHelpTitle": "Quem pode comprar crédito",
+        "adminOnly": "Só proprietário ou administrador pode comprar pacotes. Peça para um deles."
+      },
+      "allowance": {
+        "title": "Franquia mensal",
+        "helpTitle": "Franquia mensal",
+        "help": "Créditos que já vêm no seu plano para este workspace. Renovam todo mês e não acumulam.",
+        "used": "{{consumed}} de {{allowance}} usados",
+        "exhausted": "Franquia deste período esgotada."
+      },
+      "credits": {
+        "title": "Créditos",
+        "helpTitle": "Créditos",
+        "help": "Cada execução de IA custa créditos. A franquia vem do seu plano e renova todo mês; crédito comprado não expira.",
+        "purchased": "Saldo comprado",
+        "available": "Disponível agora",
+        "workspaceScope": "Estes créditos são do workspace em que você está, não da organização inteira."
+      },
+      "status": {
+        "TRIAL": "Teste",
+        "ACTIVE": "Ativo",
+        "PAST_DUE": "Pagamento em atraso",
+        "CANCELED": "Cancelado"
+      },
+      "renewsOn": "Renova em {{date}}",
+      "trialNotice": "Você está em teste: a franquia do plano é zero até assinar. Seus créditos de boas-vindas continuam valendo.",
+      "pastDueNotice": "Um pagamento falhou. Sua franquia continua por enquanto enquanto o cartão é recobrado — atualize para não perdê-la.",
+      "canceledNotice": "A assinatura está cancelada, então a franquia mensal é zero. Os créditos que você comprou continuam gastáveis.",
+      "portal": "Gerenciar cobrança",
+      "portalHelpTitle": "Portal de cobrança",
+      "portalHelp": "Abre o Stripe, onde você troca o cartão, vê faturas ou cancela.",
+      "notConfigured": "Cobrança indisponível neste ambiente.",
+      "actionFailed": "Não foi possível iniciar essa ação. Tente novamente em instantes.",
+      "ledger": {
+        "title": "Extrato",
+        "helpTitle": "Extrato",
+        "help": "Todo crédito que entrou ou saiu, do mais recente para o mais antigo: execuções de IA que gastaram, estornos, compras e concessões.",
+        "empty": "Nada aqui ainda. Cada execução de agente vai aparecer neste extrato.",
+        "loadMore": "Carregar mais",
+        "kind": {
+          "DEBIT": "Gasto",
+          "REFUND": "Estornado",
+          "PURCHASE": "Comprado",
+          "GRANT": "Concedido"
+        }
+      },
+      "return": {
+        "confirming": "Confirmando seu pagamento…",
+        "confirmed": "Pagamento confirmado. Seu plano e seus créditos estão atualizados.",
+        "pending": "Pagamento recebido. A confirmação pode levar um instante.",
+        "refresh": "Atualizar",
+        "canceled": "Checkout cancelado. Nada foi cobrado."
+      }
+    },
+    "learnings": {
+      "title": "Aprendizados",
+      "subtitle": "Tudo o que seus testes já ensinaram, reunido no lugar onde você pode reler.",
+      "helpTitle": "Aprendizado",
+      "help": "Uma conclusão tirada de um teste que já rodou. Os aprendizados confirmados entram nas próximas sugestões da AUREA — é assim que ela fica mais certeira a cada volta.",
+      "empty": "Nada aprendido ainda. Rode um teste, registre o resultado, e o aprendizado aparece aqui.",
+      "fromExperiment": "Do teste: {{name}}",
+      "manual": "Escrito à mão",
+      "filterLabel": "Mostrar",
+      "filterAll": "Todos",
+      "openExperiment": "Ver o teste",
+      "countedIn": "Entra nas próximas sugestões"
+    }
+  },
+  "wizard": {
+    "steps": {
+      "company": {
+        "label": "Perfil da Empresa",
+        "description": "Identidade de marca, missão, visão, logo e documentos institucionais",
+        "icon": "🏢"
+      },
+      "products": {
+        "label": "Produtos e Serviços",
+        "description": "O que você vende, para quem, e o que diferencia",
+        "icon": "📦"
+      },
+      "competitive": {
+        "label": "Cenário Competitivo",
+        "description": "Com quem você compete e sua diferenciação",
+        "icon": "⚔️"
+      },
+      "market": {
+        "label": "Contexto de Mercado",
+        "description": "Tamanho do mercado, crescimento, tendências e oportunidades",
+        "icon": "📈"
+      },
+      "constraints": {
+        "label": "Restrições e Recursos",
+        "description": "Orçamento, equipe, capacidades e limitações",
+        "icon": "🔧"
+      },
+      "performance": {
+        "label": "Performance Atual",
+        "description": "Receita, clientes, CAC, LTV e canais atuais",
+        "icon": "📊"
+      },
+      "activities": {
+        "label": "Atividades Atuais",
+        "description": "Quais atividades de growth você faz hoje",
+        "icon": "🚀"
+      },
+      "projects": {
+        "label": "Projetos",
+        "description": "Projetos de growth com objetivos, orçamentos e prazos",
+        "icon": "🗂️"
+      },
+      "campaigns": {
+        "label": "Campanhas",
+        "description": "Campanhas de marketing vinculadas a projetos, com KPIs",
+        "icon": "📣"
+      }
+    },
+    "company": {
+      "intro": "Conte à AUREA quem você é — comece com o básico e enriqueça com sua identidade de marca.",
+      "businessEssentials": "Informações Básicas",
+      "help": {
+        "businessEssentialsTitle": "Informações Básicas",
+        "businessEssentials": "Informações que identificam sua empresa na AUREA. Nome é obrigatório.",
+        "companyNameTitle": "Nome da Empresa",
+        "companyName": "Seu nome legal ou comercial como os clientes conhecem.",
+        "websiteTitle": "Site",
+        "website": "URL pública do site da sua empresa.",
+        "industryTitle": "Setor",
+        "industry": "O setor ou vertical em que sua empresa atua.",
+        "valuePropositionTitle": "Proposta de Valor",
+        "valueProposition": "A promessa central que sua empresa entrega aos clientes.",
+        "positioningTitle": "Posicionamento",
+        "positioning": "Como você quer que sua empresa seja percebida no mercado em relação aos concorrentes.",
+        "foundedYearTitle": "Ano de Fundação",
+        "foundedYear": "O ano em que sua empresa foi fundada.",
+        "headquartersTitle": "Sede",
+        "headquarters": "Cidade e país onde sua empresa está baseada.",
+        "employeesTitle": "Funcionários",
+        "employees": "Número total aproximado de funcionários.",
+        "fundingStageTitle": "Estágio de Financiamento",
+        "fundingStage": "Status atual de financiamento da sua empresa.",
+        "missionTitle": "Missão",
+        "mission": "A declaração de missão da sua empresa — por que você existe.",
+        "visionTitle": "Visão",
+        "vision": "Sua visão de longo prazo para a empresa.",
+        "brandVoiceTitle": "Voz da Marca",
+        "brandVoice": "Descreva como sua marca se comunica — tom, estilo, personalidade.",
+        "valuesTitle": "Valores",
+        "values": "Valores fundamentais que guiam a cultura e decisões da sua empresa."
+      },
+      "companyName": "Nome da Empresa *",
+      "website": "Site",
+      "websiteError": "Deve começar com https:// ou http://",
+      "industry": "Setor",
+      "valueProposition": "Proposta de Valor",
+      "positioningStatement": "Declaração de Posicionamento",
+      "brandIdentity": "Identidade da Marca",
+      "foundedYear": "Ano de Fundação",
+      "headquarters": "Sede",
+      "employees": "Funcionários",
+      "fundingStage": "Estágio de Financiamento",
+      "fundingStageSelect": "Selecionar...",
+      "mission": "Missão",
+      "vision": "Visão",
+      "brandVoice": "Voz e Tom da Marca",
+      "values": "Valores da Empresa",
+      "add": "Adicionar",
+      "placeholder": {
+        "companyName": "ex.: AUREA",
+        "website": "https://www.exemplo.com",
+        "industry": "ex.: SaaS, Fintech, HealthTech",
+        "valueProposition": "ex.: Reduza custos de suporte pela metade sem prejudicar a satisfação",
+        "positioning": "ex.: A ferramenta especializada em automação de crescimento para B2B SaaS",
+        "foundedYear": "ex.: 2020",
+        "headquarters": "ex.: São Paulo, BR",
+        "employees": "ex.: 25",
+        "mission": "ex.: Capacitar todo negócio SaaS a alcançar crescimento sustentável com IA...",
+        "vision": "ex.: Tornar-se o padrão global para operações de crescimento com IA...",
+        "brandVoice": "ex.: Profissional mas acessível, orientado a dados, otimista...",
+        "values": "ex.: Obsessão pelo cliente"
+      }
+    },
+    "logoUpload": {
+      "uploadFailed": "Falha no upload",
+      "noLogo": "Sem logo",
+      "companyLogo": "Logo da Empresa",
+      "help": {
+        "logoTitle": "Logo da Empresa",
+        "logo": "Faça upload da logo da sua empresa (PNG, JPEG, WebP ou SVG). Isso ajuda a AUREA a personalizar a experiência."
+      },
+      "uploading": "Enviando...",
+      "changeLogo": "Trocar Logo",
+      "uploadLogo": "Upload Logo",
+      "remove": "Remover"
+    },
+    "fileUpload": {
+      "uploadFailed": "Falha no upload",
+      "institutionalDocuments": "Documentos Institucionais",
+      "help": {
+        "documentsTitle": "Documentos",
+        "documents": "Faça upload de PDFs, documentos Word ou arquivos de texto que descrevam sua empresa, produtos ou mercado (ex.: pitch deck, plano de negócios, whitepapers). A AUREA usa esses arquivos para entender seu contexto."
+      },
+      "documentN": "Documento {{n}}",
+      "remove": "Remover",
+      "uploading": "Enviando...",
+      "addDocument": "+ Adicionar Documento"
+    },
+    "products": {
+      "intro": "Quais produtos ou serviços sua empresa oferece? Isso ajuda a AUREA a entender o que você vende e para quem.",
+      "empty": "Nenhum produto adicionado ainda. Adicione seu primeiro produto.",
+      "productN": "Produto {{n}}",
+      "remove": "Remover",
+      "productName": "Nome do Produto *",
+      "description": "Descrição *",
+      "targetAudience": "Público-Alvo",
+      "keyDifferentiator": "Diferencial Principal",
+      "pricingModel": "Modelo de Preço",
+      "pricingModelSelect": "Selecionar...",
+      "pricePoint": "Preço",
+      "status": "Status",
+      "addAnother": "+ Adicionar Outro Produto",
+      "tip": "💡 <strong>Dica:</strong> Quanto mais específico você for sobre o que torna seu produto diferente, melhores serão as estratégias recomendadas pela AUREA.",
+      "help": {
+        "productNameTitle": "Nome do Produto",
+        "productName": "O nome do seu produto ou serviço como os clientes conhecem.",
+        "descriptionTitle": "Descrição do Produto",
+        "description": "Uma descrição clara e concisa do que este produto faz. Foque no resultado que ele entrega.",
+        "targetAudienceTitle": "Público-Alvo",
+        "targetAudience": "Para quem este produto é especificamente?",
+        "differentiatorTitle": "Diferencial",
+        "differentiator": "O que torna este produto único em comparação com alternativas?",
+        "pricingModelTitle": "Modelo de Preço",
+        "pricingModel": "Como você cobra por este produto?",
+        "pricePointTitle": "Preço",
+        "pricePoint": "Preço típico ou faixa de preço (ex.: \"R9/mês\" ou \"A partir de R00\")",
+        "statusTitle": "Status",
+        "status": "Se este produto está ativo, em beta, planejado ou descontinuado."
+      },
+      "placeholder": {
+        "productName": "ex.: AUREA Growth OS",
+        "description": "ex.: Sistema operacional de crescimento com IA que transforma objetivos em estratégias e experimentos",
+        "targetAudience": "ex.: Fundadores de SaaS B2B em estágio inicial",
+        "differentiator": "ex.: Única ferramenta que combina contexto + estratégia + execução + aprendizado em um ciclo",
+        "pricePoint": "ex.: R9/mês"
+      }
+    },
+    "competitive": {
+      "intro": "Entender seu cenário competitivo ajuda a AUREA a identificar oportunidades onde os concorrentes são fracos.",
+      "mainDifferentiator": "Nosso Principal Diferencial",
+      "marketPosition": "Posição de Mercado",
+      "marketPositionSelect": "Selecionar...",
+      "mainCompetitors": "Principais Concorrentes",
+      "competitorN": "Concorrente {{n}}",
+      "remove": "Remover",
+      "name": "Nome",
+      "website": "Site",
+      "strengths": "Pontos Fortes",
+      "weaknesses": "Pontos Fracos",
+      "pricing": "Preço deles",
+      "positioning": "Posicionamento deles",
+      "marketShare": "Participação de Mercado",
+      "marketShareUnknown": "Desconhecido",
+      "addCompetitor": "+ Adicionar Concorrente",
+      "competitiveAdvantages": "Nossas Vantagens Competitivas",
+      "threatsFromCompetitors": "Ameaças dos Concorrentes",
+      "tip": "💡 <strong>Dica:</strong> A AUREA usará as fraquezas dos concorrentes para identificar oportunidades onde você pode vencer.",
+      "help": {
+        "differentiatorTitle": "Diferencial Principal",
+        "differentiator": "Em uma frase, o que te diferencia de todos os concorrentes? Este é seu posicionamento central.",
+        "marketPositionTitle": "Posição de Mercado",
+        "marketPosition": "Onde você está no mercado em relação aos concorrentes?",
+        "competitorsTitle": "Concorrentes",
+        "competitors": "Liste 2-5 concorrentes principais. Foque nos concorrentes diretos, não no mercado inteiro.",
+        "advantagesTitle": "Vantagens Competitivas",
+        "advantages": "O que você faz melhor que os concorrentes? Seja específico (ex.: \"onboarding 2x mais rápido\" em vez de \"fácil de usar\").",
+        "positioningTitle": "Posicionamento",
+        "positioning": "Como esse concorrente se posiciona no mercado.",
+        "threatsFromCompetitorsTitle": "Ameaças de Concorrentes",
+        "threatsFromCompetitors": "Riscos específicos que os concorrentes representam para o seu negócio (ex.: \"Preços agressivos\", \"Lançamentos de recursos mais rápidos\")."
+      },
+      "placeholder": {
+        "differentiator": "ex.: Única ferramenta de crescimento que combina estratégia IA + execução + aprendizado",
+        "name": "Nome do concorrente",
+        "website": "https://...",
+        "strengths": "ex.: Reconhecimento de marca",
+        "weaknesses": "ex.: Interface complexa",
+        "pricing": "ex.: R99/mês",
+        "positioning": "ex.: Solução premium para empresas",
+        "addAdvantage": "Adicionar uma vantagem...",
+        "threatsFromCompetitors": "Adicione uma ameaça..."
+      }
+    },
+    "market": {
+      "intro": "O contexto de mercado ajuda a AUREA a entender o tamanho da oportunidade e para onde o mercado está indo.",
+      "marketSize": "Tamanho do Mercado (Opcional)",
+      "tam": "TAM (R$)",
+      "sam": "SAM (R$)",
+      "som": "SOM (R$)",
+      "growthRate": "Taxa de Crescimento do Mercado (%)",
+      "maturity": "Maturidade do Mercado",
+      "maturitySelect": "Selecionar...",
+      "trends": "Principais Tendências de Mercado",
+      "opportunities": "Oportunidades de Mercado",
+      "threats": "Ameaças de Mercado",
+      "tip": "💡 <strong>Dica:</strong> Tendências e oportunidades de mercado ajudam a AUREA a recomendar estratégias no momento certo.",
+      "help": {
+        "tamTitle": "Mercado Total Endereçável",
+        "tam": "A demanda total do mercado pelo seu produto/serviço. Todos os clientes potenciais globalmente.",
+        "samTitle": "Mercado Endereçável com Serviço",
+        "sam": "O segmento do TAM que você pode alcançar com seu produto e canais atuais.",
+        "somTitle": "Mercado Obtenível com Serviço",
+        "som": "A porção do SAM que você pode realisticamente capturar no curto prazo (1-3 anos).",
+        "growthRateTitle": "Crescimento Anual",
+        "growthRate": "Quão rápido seu mercado está crescendo anualmente? Ex.: 15 = 15% ao ano.",
+        "maturityTitle": "Estágio do Mercado",
+        "maturity": "Em que estágio seu mercado está?",
+        "trendsTitle": "Tendências",
+        "trends": "Quais macrotendências estão moldando seu mercado? (ex.: \"Trabalho remoto\", \"Adoção de IA\")",
+        "opportunitiesTitle": "Oportunidades",
+        "opportunities": "Fatores externos criando oportunidades de crescimento (ex.: \"Nova regulação exigindo nossa solução\")",
+        "threatsTitle": "Ameaças",
+        "threats": "Riscos ou desafios externos no seu mercado (ex.: \"Crise econômica\", \"Novo financiamento de concorrente\")"
+      },
+      "placeholder": {
+        "tam": "ex.: 50.000.000",
+        "sam": "ex.: 10.000.000",
+        "som": "ex.: 1.000.000",
+        "growthRate": "ex.: 15",
+        "addTrend": "Adicionar tendência (pressione Enter)...",
+        "addOpportunity": "Adicionar oportunidade (pressione Enter)...",
+        "addThreat": "Adicionar ameaça (pressione Enter)..."
+      }
+    },
+    "constraints": {
+      "intro": "Conhecer suas restrições ajuda a AUREA a recomendar estratégias realistas que se encaixam nos seus recursos e prazo.",
+      "monthlyGrowthBudget": "Orçamento Mensal de Crescimento (R$)",
+      "teamSize": "Tamanho Total da Equipe",
+      "growthTeam": "Equipe Dedicada de Crescimento",
+      "urgency": "Urgência de Crescimento",
+      "urgencySelect": "Selecionar...",
+      "technicalCapabilities": "Capacidades Técnicas",
+      "limitations": "Limitações Operacionais",
+      "regulatory": "Requisitos Regulatórios (Opcional)",
+      "tip": "💡 <strong>Dica:</strong> Restrições honestas ajudam a AUREA a evitar recomendar estratégias que você não pode executar.",
+      "help": {
+        "budgetTitle": "Orçamento de Crescimento",
+        "budget": "Quanto você pode gastar por mês em atividades de crescimento (anúncios, ferramentas, conteúdo, etc.)?",
+        "teamSizeTitle": "Tamanho da Equipe",
+        "teamSize": "Quantas pessoas trabalham na sua empresa?",
+        "growthTeamTitle": "Equipe de Crescimento",
+        "growthTeam": "Quantas pessoas trabalham em crescimento em tempo integral? (0 se apenas o fundador)",
+        "urgencyTitle": "Urgência",
+        "urgency": "Quão urgente é o crescimento agora? Isso afeta as recomendações de estratégia.",
+        "capabilitiesTitle": "Capacidades",
+        "capabilities": "O que sua equipe consegue fazer internamente? (ex.: \"Criar landing pages\", \"Escrever código\", \"Design gráfico\")",
+        "limitationsTitle": "Limitações",
+        "limitations": "O que você ainda não consegue fazer? (ex.: \"Não pode enviar para UE\", \"Sem suporte por telefone\", \"Sem app mobile\")",
+        "regulatoryTitle": "Regulatório",
+        "regulatory": "Alguma restrição de conformidade/regulatória? (ex.: \"LGPD\", \"HIPAA\", \"SOC 2\")"
+      },
+      "placeholder": {
+        "budget": "ex.: 5000",
+        "teamSize": "ex.: 5",
+        "growthTeam": "ex.: 1",
+        "addCapability": "Adicionar capacidade (pressione Enter)...",
+        "addLimitation": "Adicionar limitação (pressione Enter)...",
+        "addRegulatory": "Adicionar requisito (pressione Enter)..."
+      }
+    },
+    "performance": {
+      "intro": "A performance atual fornece à AUREA métricas de linha de base para medir melhorias.",
+      "revenue": "Receita",
+      "mrr": "MRR (R$)",
+      "arr": "ARR (R$)",
+      "customers": "Clientes",
+      "totalCustomers": "Total de Clientes",
+      "activeCustomers": "Clientes Ativos",
+      "churn": "Churn Mensal (%)",
+      "acquisition": "Aquisição",
+      "monthlySignups": "Cadastros Mensais",
+      "cac": "CAC (R$)",
+      "ltv": "LTV (R$)",
+      "ltvCac": "Razão LTV:CAC",
+      "conversion": "Conversão",
+      "conversionRate": "Taxa de Conversão (%)",
+      "timeToConvert": "Tempo para Converter (dias)",
+      "baselineDate": "Data de Referência",
+      "channels": "Canais de Tráfego Atuais",
+      "channelN": "Canal {{n}}",
+      "remove": "Remover",
+      "channelName": "Nome do Canal",
+      "monthlyVisitors": "Visitantes Mensais",
+      "channelConversion": "Taxa de Conversão (%)",
+      "channelCac": "CAC (R$)",
+      "addChannel": "+ Adicionar Canal",
+      "tip": "💡 <strong>Dica:</strong> Estas métricas ajudam a AUREA a calcular ROI e recomendar estratégias que melhorem sua economia unitária.",
+      "help": {
+        "mrrTitle": "Receita Recorrente Mensal",
+        "mrr": "Sua receita mensal previsível de assinaturas.",
+        "arrTitle": "Receita Recorrente Anual",
+        "arr": "MRR × 12, ou receita recorrente anual total.",
+        "totalCustomersTitle": "Total de Clientes",
+        "totalCustomers": "Número total de clientes pagantes.",
+        "activeCustomersTitle": "Clientes Ativos",
+        "activeCustomers": "Clientes que usaram seu produto recentemente (ex.: últimos 30 dias).",
+        "churnTitle": "Taxa de Churn",
+        "churn": "Porcentagem de clientes que cancelam a cada mês. Ex.: 5 = 5%.",
+        "signupsTitle": "Cadastros Mensais",
+        "signups": "Média de novos cadastros por mês.",
+        "cacTitle": "Custo de Aquisição de Cliente",
+        "cac": "Custo médio para adquirir um cliente pagante.",
+        "ltvTitle": "Valor Vitalício",
+        "ltv": "Receita média que você gera de um cliente ao longo da vida.",
+        "ltvCacTitle": "Razão LTV:CAC",
+        "ltvCac": "LTV dividido por CAC. SaaS saudável é tipicamente 3:1 ou mais.",
+        "conversionTitle": "Taxa de Conversão",
+        "conversion": "Porcentagem de cadastros que se tornam clientes pagantes. Ex.: 2.5 = 2.5%.",
+        "timeToConvertTitle": "Tempo para Converter",
+        "timeToConvert": "Dias médios do cadastro até se tornar cliente pagante.",
+        "baselineDateTitle": "Data de Referência",
+        "baselineDate": "A data em que essas métricas foram medidas. Permite que a AUREA compare o progresso futuro com este momento exato.",
+        "channelsTitle": "Canais",
+        "channels": "De onde seus clientes vêm hoje."
+      },
+      "derived": {
+        "arr": "MRR × 12",
+        "cac": "{{monthlySpend}} em anúncios ÷ {{monthlySignups}} clientes novos",
+        "ltv": "receita por cliente ÷ churn de {{churnRate}}",
+        "ltvCacRatio": "LTV ÷ CAC"
+      },
+      "placeholder": {
+        "mrr": "ex.: 10000",
+        "arr": "ex.: 120000",
+        "totalCustomers": "ex.: 50",
+        "activeCustomers": "ex.: 45",
+        "churn": "ex.: 5",
+        "signups": "ex.: 100",
+        "cac": "ex.: 150",
+        "ltv": "ex.: 500",
+        "ltvCac": "ex.: 3.3",
+        "conversion": "ex.: 2.5",
+        "timeToConvert": "ex.: 7",
+        "channelName": "ex.: Busca orgânica, LinkedIn, Direto",
+        "visitors": "ex.: 1000",
+        "channelConversion": "ex.: 3",
+        "channelCac": "ex.: 100"
+      }
+    },
+    "activities": {
+      "intro": "Entender o que você está fazendo agora ajuda a AUREA a evitar recomendações duplicadas e construir sobre o que já funciona.",
+      "activeChannels": "Canais de Crescimento Ativos",
+      "contentProduction": "Produção de Conteúdo",
+      "blogPosts": "Posts no Blog/Mês",
+      "socialPosts": "Posts em Redes Sociais/Semana",
+      "emailCampaigns": "Campanhas de Email/Mês",
+      "paidAdvertising": "Publicidade Paga",
+      "adPlatforms": "Plataformas",
+      "monthlyAdSpend": "Gasto Mensal com Anúncios (R$)",
+      "partnerships": "Parcerias Ativas",
+      "other": "Outras Atividades de Crescimento",
+      "tip": "💡 <strong>Dica:</strong> A AUREA construirá sobre o que está funcionando e sugerirá como escalar ou otimizar canais existentes antes de recomendar novos.",
+      "doneTitle": "Você concluiu o wizard de contexto!",
+      "doneMessage": "Clique em <strong>\"Salvar e Concluir\"</strong> abaixo. A AUREA agora tem um contexto rico para raciocinar sobre seu crescimento.",
+      "help": {
+        "channelsTitle": "Canais Ativos",
+        "channels": "Quais canais você está usando ativamente hoje? (ex.: \"SEO\", \"LinkedIn orgânico\", \"Google Ads\", \"Email\")",
+        "contentTitle": "Produção de Conteúdo",
+        "content": "Quanto conteúdo você está produzindo regularmente?",
+        "paidTitle": "Publicidade Paga",
+        "paid": "Você está veiculando anúncios pagos? Se sim, onde e quanto?",
+        "partnershipsTitle": "Parcerias",
+        "partnerships": "Parcerias estratégicas para crescimento (ex.: \"Integração com Salesforce\", \"Co-marketing com EmpresaX\")",
+        "otherTitle": "Outras Atividades",
+        "other": "Qualquer outra coisa que você está fazendo para crescer (ex.: \"Comunidade\", \"Webinars\", \"Eventos\")"
+      },
+      "placeholder": {
+        "addChannel": "Adicionar canal (pressione Enter)...",
+        "blogPosts": "ex.: 4",
+        "socialPosts": "ex.: 5",
+        "emailCampaigns": "ex.: 2",
+        "adPlatforms": "Adicionar plataforma (pressione Enter)...",
+        "adSpend": "ex.: 3000",
+        "addPartnership": "Adicionar parceria (pressione Enter)...",
+        "addOther": "Adicionar atividade (pressione Enter)..."
+      }
+    },
+    "projects": {
+      "intro": "Projetos de crescimento com objetivos claros. Cada projeto pode ter múltiplas metas mensuráveis.",
+      "empty": "Nenhum projeto ainda. Adicione seu primeiro projeto de crescimento.",
+      "projectN": "Projeto {{n}}",
+      "remove": "Remover",
+      "projectName": "Nome do Projeto *",
+      "type": "Tipo",
+      "typeSelect": "Selecionar...",
+      "description": "Descrição",
+      "status": "Status",
+      "budget": "Orçamento (R$)",
+      "owner": "Responsável",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "objectives": "Objetivos",
+      "addObjective": "+ Adicionar Objetivo",
+      "objectiveN": "Objetivo {{n}}",
+      "objDescription": "Descrição *",
+      "metric": "Métrica",
+      "baseline": "Linha de Base",
+      "target": "Meta",
+      "unit": "Unidade",
+      "deadline": "Prazo",
+      "objStatus": "Status",
+      "addProject": "+ Adicionar Projeto",
+      "help": {
+        "objectivesTitle": "Objetivos do Projeto",
+        "objectives": "Defina 1-3 objetivos mensuráveis para este projeto. Cada objetivo deve ter uma métrica e meta claras.",
+        "metricTitle": "Métrica",
+        "metric": "O que você está medindo neste objetivo (ex.: \"conversão de trial para pago\", \"cadastros mensais\").",
+        "baselineTitle": "Linha de Base",
+        "baseline": "Onde essa métrica está hoje, antes do início do projeto.",
+        "targetTitle": "Meta",
+        "target": "Onde você quer que essa métrica esteja até o prazo."
+      },
+      "placeholder": {
+        "projectName": "ex.: Iniciativa Product-Led Growth",
+        "description": "Breve descrição do escopo e objetivos do projeto",
+        "budget": "ex.: 50000",
+        "owner": "ex.: Time de Growth",
+        "objDescription": "ex.: Aumentar conversão de trial para pago em 20%",
+        "metric": "ex.: Conversão",
+        "baseline": "ex.: 5",
+        "target": "ex.: 6",
+        "unit": "ex.: %"
+      }
+    },
+    "campaigns": {
+      "intro": "Campanhas de marketing e divulgação vinculadas a projetos, com KPIs mensuráveis.",
+      "empty": "Nenhuma campanha ainda. Adicione sua primeira campanha.",
+      "campaignN": "Campanha {{n}}",
+      "remove": "Remover",
+      "campaignName": "Nome da Campanha *",
+      "channel": "Canal",
+      "description": "Descrição",
+      "status": "Status",
+      "budget": "Orçamento (R$)",
+      "linkedProject": "Projeto Vinculado",
+      "linkedProjectNone": "Nenhum",
+      "linkedProjectProjectN": "Projeto {{n}}",
+      "targetAudience": "Público-Alvo",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "kpis": "KPIs",
+      "addKpi": "+ Adicionar KPI",
+      "kpiN": "KPI {{n}}",
+      "kpiName": "Nome do KPI",
+      "kpiTarget": "Meta",
+      "kpiCurrent": "Atual",
+      "kpiUnit": "Unidade",
+      "addCampaign": "+ Adicionar Campanha",
+      "help": {
+        "linkedProjectTitle": "Projeto Vinculado",
+        "linkedProject": "Opcionalmente vincule esta campanha a um projeto específico para rastreabilidade.",
+        "targetAudienceTitle": "Público-Alvo",
+        "targetAudience": "Quem esta campanha está mirando? Descreva a persona ou segmento.",
+        "kpisTitle": "KPIs da Campanha",
+        "kpis": "Defina KPIs mensuráveis para esta campanha (ex.: impressões, cliques, conversões, cadastros).",
+        "kpiTargetTitle": "Meta do KPI",
+        "kpiTarget": "O número que esse KPI precisa alcançar para a campanha ser considerada um sucesso.",
+        "kpiCurrentTitle": "Valor Atual",
+        "kpiCurrent": "O valor mais recente conhecido do KPI — atualize-o enquanto a campanha estiver em andamento."
+      },
+      "placeholder": {
+        "campaignName": "ex.: Lançamento Q3",
+        "channel": "ex.: LinkedIn Ads, Email, Webinar",
+        "description": "Breve descrição da estratégia e alvo da campanha",
+        "budget": "ex.: 10000",
+        "targetAudience": "ex.: Fundadores de SaaS B2B na América Latina",
+        "kpiName": "ex.: Cliques",
+        "kpiUnit": "ex.: #"
+      }
+    }
+  }
+}

@@ -11,6 +11,31 @@ React frontend for Aurea, an AI growth operating system: founders define busines
 - Integrations (GA4 service account, social accounts) and billing/credits screens.
 - i18n with three locales; typed API client generated from OpenAPI (Kubb).
 
+## Screenshots
+
+Captured from a local run with fictitious seed data (a made-up bakery workspace, no real users). The app is dark-only; the UI is in Portuguese.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/02-dashboard-desktop.png" alt="Dashboard: onboarding progress and recent activity"><br><sub>Dashboard: onboarding progress and recent activity.</sub></td>
+    <td width="50%"><img src="docs/screenshots/03-business-desktop.png" alt="Business profile and context sections"><br><sub>Business profile and context sections.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/04-icps-desktop.png" alt="Ideal customer profiles"><br><sub>Ideal customer profiles.</sub></td>
+    <td width="50%"><img src="docs/screenshots/06-strategies-desktop.png" alt="Growth loop, Plans stage: one active and one draft strategy"><br><sub>Growth loop, Plans stage: one active and one draft strategy.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/07-experiments-desktop.png" alt="Growth loop, Tests stage: one running and one draft experiment"><br><sub>Growth loop, Tests stage: one running and one draft experiment.</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/screenshots/02-dashboard-mobile.png" alt="Dashboard on mobile"><br><sub>Dashboard on mobile.</sub></td>
+    <td width="25%"><img src="docs/screenshots/06-strategies-mobile.png" alt="Strategies on mobile"><br><sub>Strategies on mobile.</sub></td>
+  </tr>
+</table>
+
 ## Architecture
 
 System context: the web app only talks to aurea-api.
